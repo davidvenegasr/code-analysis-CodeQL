@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:dbinfo xmlns:ns2="https://semmle.com/schemas/dbinfo">
+    <sourceLocationPrefix>/home/aditya/semmle/semmle-data/projects/Struts/revision-2018-August-01--15-16-25/src</sourceLocationPrefix>
+    <unicodeNewlines>false</unicodeNewlines>
+    <columnKind>utf16</columnKind>
+</ns2:dbinfo>
