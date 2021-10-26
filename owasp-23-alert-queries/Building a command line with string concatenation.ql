@@ -21,6 +21,7 @@ import semmle.code.java.security.CommandLineQuery
  * do not need to be escaped, because the programmer can predict what the string
  * has in it.
  */
+
 predicate saneString(Expr expr) {
   expr instanceof StringLiteral
   or
