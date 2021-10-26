@@ -23,6 +23,23 @@
 		},
 		{
 			"path": "ql"
+		},
+		{
+			"path": "java-tutorial-yt"
+		},
+		{
+			"path": "QueryTest0001"
+		},
+		{
+			"name": "[apache_struts_cve_2017_9805 source archive]",
+			"uri": "codeql-zip-archive://1-82/c:\\Users\\david\\Documents\\code-analysis-CodeQL\\apache_struts_cve_2017_9805\\src.zip"
+		},
+		{
+			"name": "[owasp-database source archive]",
+			"uri": "codeql-zip-archive://1-79/c:\\Users\\david\\Documents\\code-analysis-CodeQL\\databases\\owasp-database\\src.zip"
+		},
+		{
+			"path": "owasp-23-alert-queries"
 		}
 	],
 	"settings": {
