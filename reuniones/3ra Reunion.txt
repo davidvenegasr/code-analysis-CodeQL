@@ -1,0 +1,8 @@
+3ra Reunion 
+
+1.- Investigar Queries Suite
+2.- Entender los graficos y las metricas de OWASP-Benchmark. Ver como generan ese score.
+3.- Terminar lo que quedo pendiente de las diferencias. En particular ver las diferencias entre las dos queries, la default y la que tiene el TaintStep
+A donde se equivoco y a donde hacia falta.
+4.- Probar otras queries con el mismo taint step.  
+

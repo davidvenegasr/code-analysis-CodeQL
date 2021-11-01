@@ -1,0 +1,18 @@
+Ivan Postolski4:21 PM
+class JacksonFieldStep extends TaintTracking::AdditionalTaintStep {
+
+	override predicate step(DataFlow::Node a, DataFlow::Node b) {
+
+	}
+}
+Ivan Postolski4:24 PM
+AdditionalTaintStep
+Ivan Postolski4:41 PM
+https://github.com/github/codeql/tree/main/java/ql/src/Security/CWE
+Ivan Postolski4:47 PM
+https://github.com/github/codeql/blob/main/java/ql/src/Security/CWE/CWE-022/ZipSlip.ql
+Ivan Postolski5:02 PM
+https://owasp.org/www-project-benchmark/
+https://github.com/OWASP/Benchmark
+Ivan Postolski5:07 PM
+https://github.com/OWASP/Benchmark/blob/master/src/main/java/org/owasp/benchmark/testcode/BenchmarkTest00001.java

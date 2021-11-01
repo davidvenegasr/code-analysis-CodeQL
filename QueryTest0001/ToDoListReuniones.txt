@@ -1,0 +1,35 @@
+1ra Reunion 
+
+1- Intentar por mi mismo setear source and sink
+
+2- Ver que pinta tiene la query que usaron ellos para ese sink.
+
+3- Investigar como hacen para manejar varios source, sinks y cuales tienen sentido.
+
+
+2da Reunion
+
+1- Averiguar score codeQl en OWASP, como se genera a partir de las queries que estan en LGTM. Probar ejecutar util https://github.com/OWASP-Benchmark/BenchmarkUtils/blob/3cbe7cd6dbed3b219e55811547d2b3c3b7881008/plugin/src/main/java/org/owasp/benchmarkutils/score/parsers/CodeQLReader.java y ver que resultado tiene 
+
+1.1 Si se puede correr un score de OWASP con una sola quey de las LGTM. 
+
+2-  Entender como surge el score de las queries. Ej:
+ * @security-severity 7.5
+ * @precision high
+ * @id java/path-injection
+ * @tags security
+ *       external/cwe/cwe-022
+ *       external/cwe/cwe-023
+ *       external/cwe/cwe-036
+ *       external/cwe/cwe-073
+ */
+
+3- Explorar como funciona la query "Posta"
+
+4- Explorar que fue lo que aumento metiendo el taint-step a la query posta.
+
+4.1 Explorar las diferencias por ejemplo con un diff entre archivos, y documentar los problemas. 
+
+5- Mirar las queries que estan en LGTM y ver si alguna usa un Additional TaintStep. Y guardarlos en un alguna lado. En cada uno anotar la precision de la query si esta definida. 
+
+Problema: Cuando codeQL no encuentre una alarma que deberia encontrar, que queries de LGTM es la que pierden el recall.

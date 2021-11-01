@@ -1,0 +1,21 @@
+Hasta donde propaga el source codeQL
+¿Cuales son los false positives que agrego?
+Si hay muchos FN -> TP
+
+Explorar:
+
+	Trust Boundary
+	Weak Hashing Algorithm
+	Commond Injections
+
+No mejorar FP, Mejorar FN y meter TP 
+
+
+
+SQL Injection usa Taint Sept? Que pasa si lo agrego?
+
+Ver 23 queries a mano y si alguna tiene taint step
+
+Importante:
+
+Mencionar scorecards -> Score = TPR - FPR	How good the tool is at finding true positives and avoiding false positives.
