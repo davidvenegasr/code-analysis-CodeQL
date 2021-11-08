@@ -6,6 +6,7 @@
  */
 
 import java
+import TaintedPathCommon
 
 from BlockStmt b
 where b.getNumStmt() = 0

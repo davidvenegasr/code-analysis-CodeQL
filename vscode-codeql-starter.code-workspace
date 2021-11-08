@@ -44,6 +44,9 @@
 		{
 			"name": "[owasp-databaseV2.7 source archive]",
 			"uri": "codeql-zip-archive://1-92/c:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\databases\\owasp-databaseV2.7\\src.zip"
+		},
+		{
+			"path": "owasp"
 		}
 	],
 	"settings": {
