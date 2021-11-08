@@ -1,0 +1,16 @@
+true positives - 2 razones:
+    analisis estatico -> no puede resolver ciertos ifs 
+    manejo de colecciones 
+
+Queremos mucho recall, pocas alarmmas y ver de forma pragmatica de como optimizarlo
+
+
+Hacer comparacion superficial en donde a codeQL le va mucho mejor que al resto
+y entender por que?
+Y cuales les va muy mal 
+
+Ver hash y correr con la suite contra la database
+
+Ver el tema de las colecciones, sacar un soporte y ver que pasa
+
+Agarrar cada OR que estan los tainssteps default y probar sacandolos (aunque sea algunos)

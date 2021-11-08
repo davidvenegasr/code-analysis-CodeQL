@@ -108,3 +108,4 @@ select c, source, sink, "Hash algorithm $@ is weak and should not be used.", s,
   string getInsecureHashRegex() {
     result = hashRegex(insecureHashString(max(int i | exists(rankedInsecureHash(i)))))
 }
+

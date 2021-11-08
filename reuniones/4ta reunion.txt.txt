@@ -6,7 +6,7 @@ Explorar:
 
 	Trust Boundary
 	Weak Hashing Algorithm
-	Commond Injections
+	Command Injections
 
 No mejorar FP, Mejorar FN y meter TP 
 
@@ -19,3 +19,10 @@ Ver 23 queries a mano y si alguna tiene taint step
 Importante:
 
 Mencionar scorecards -> Score = TPR - FPR	How good the tool is at finding true positives and avoiding false positives.
+
+
+//Reunion Intermedia con Victor
+
+Ver FP sqli
+Ver query hashing
+Como se compara con otras tools
