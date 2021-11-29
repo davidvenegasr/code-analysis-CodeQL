@@ -1,25 +1,7 @@
 {
 	"folders": [
 		{
-			"path": "codeql-custom-queries-cpp"
-		},
-		{
-			"path": "codeql-custom-queries-csharp"
-		},
-		{
-			"path": "codeql-custom-queries-go"
-		},
-		{
 			"path": "codeql-custom-queries-java"
-		},
-		{
-			"path": "codeql-custom-queries-javascript"
-		},
-		{
-			"path": "codeql-custom-queries-python"
-		},
-		{
-			"path": "codeql-go"
 		},
 		{
 			"path": "ql"
