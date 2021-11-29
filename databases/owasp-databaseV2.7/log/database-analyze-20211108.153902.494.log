@@ -1,0 +1,11 @@
+[2021-11-08 15:39:02] This is codeql database analyze .\owasp-databaseV2.7\ --format=sarifv2.1.0 --output=results/Benchmark-CodeQL-SQLInjection-SINLISTAS.sarif --threads=4 --rerun --search-path= ..\ql\java\ ..\QueryTest Eliminando Listas\Query built from user-controlled sources.ql
+[2021-11-08 15:39:02] Log file was started late.
+[2021-11-08 15:39:02] [PROGRESS] database analyze> Running queries.
+[2021-11-08 15:39:02] Running plumbing command: codeql database run-queries --evaluator-log-level=1 --threads=4 --ml-model-path= --native-library-path= --warnings=show --search-path=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases --qlconfig-file=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\qlconfig.yml --rerun -- C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\owasp-databaseV2.7 ..\ql\java\ ..\QueryTest Eliminando Listas\Query built from user-controlled sources.ql
+[2021-11-08 15:39:02] Calling plumbing command: codeql resolve ram --format=json
+[2021-11-08 15:39:02] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx2011M",
+                        "--off-heap-ram=2011"
+                      ]
+[2021-11-08 15:39:02] Spawning plumbing command: execute queries -J-Xmx2011M --off-heap-ram=2011 --verbosity=progress --logdir=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\owasp-databaseV2.7\log --evaluator-log-level=1 --threads=4 --ml-model-path=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases --native-library-path=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases --warnings=show --search-path=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases --qlconfig-file=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\qlconfig.yml --rerun --output=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\owasp-databaseV2.7\results -- C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\owasp-databaseV2.7\db-java ..\ql\java\ ..\QueryTest Eliminando Listas\Query built from user-controlled sources.ql

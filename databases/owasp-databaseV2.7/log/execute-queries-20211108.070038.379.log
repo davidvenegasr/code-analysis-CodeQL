@@ -1,0 +1,61 @@
+[2021-11-08 07:00:38] This is codeql execute queries -J-Xmx2011M --off-heap-ram=2011 --verbosity=progress --logdir=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\owasp-databaseV2.7\log --evaluator-log-level=1 --ml-model-path= --native-library-path= --warnings=show --qlconfig-file=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp\qlconfig.yml -- C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\owasp-databaseV2.7\db-java C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp\Uncontrolled data used in path expression.ql
+[2021-11-08 07:00:38] Calling plumbing command: codeql resolve queries --qlconfig-file=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp\qlconfig.yml --format=json -- C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp\Uncontrolled data used in path expression.ql
+[2021-11-08 07:00:38] Plumbing command codeql resolve queries completed:
+                      [
+                        "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\owasp\\Uncontrolled data used in path expression.ql"
+                      ]
+[2021-11-08 07:00:38] Creating executor with 1 threads.
+[2021-11-08 07:00:38] Calling plumbing command: codeql resolve library-path --qlconfig-file=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp\qlconfig.yml --query=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp\Uncontrolled data used in path expression.ql --format=json
+[2021-11-08 07:00:38] [DETAILS] resolve library-path> Resolving query at normalized path C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp\Uncontrolled data used in path expression.ql.
+[2021-11-08 07:00:38] [DETAILS] resolve library-path> Found enclosing pack 'owasp' at C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp.
+[2021-11-08 07:00:38] [DETAILS] resolve library-path> Adding compilation cache at C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp\.cache.
+[2021-11-08 07:00:38] [DETAILS] resolve library-path> Resolving library dependencies from C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp\qlpack.yml.
+[2021-11-08 07:00:39] [DETAILS] resolve library-path> QL pack dependencies for C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp resolved OK.
+[2021-11-08 07:00:39] [DETAILS] resolve library-path> Found dbscheme through QL packs: C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\ql\java\ql\lib\config\semmlecode.dbscheme.
+[2021-11-08 07:00:39] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\owasp",
+                          "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\ql\\java\\ql\\lib",
+                          "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\ql\\java\\upgrades"
+                        ],
+                        "dbscheme" : "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\ql\\java\\ql\\lib\\config\\semmlecode.dbscheme",
+                        "compilationCache" : [
+                          "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\owasp\\.cache"
+                        ],
+                        "relativeName" : "owasp\\Uncontrolled data used in path expression.ql",
+                        "qlPackName" : "owasp"
+                      }
+[2021-11-08 07:00:39] [PROGRESS] execute queries> Compiling query plan for C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp\Uncontrolled data used in path expression.ql.
+[2021-11-08 07:00:39] [DETAILS] execute queries> Resolving imports for C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp\Uncontrolled data used in path expression.ql.
+[2021-11-08 07:00:40] Resolved file set for C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp\Uncontrolled data used in path expression.ql hashes to f5874f2dfa781a666e20fe297b046aa7e28a0ace.
+[2021-11-08 07:00:40] [DETAILS] execute queries> Checking QL for C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp\Uncontrolled data used in path expression.ql.
+[2021-11-08 07:00:40] ExternalModuleBindingPass ...
+[2021-11-08 07:00:41] ExternalModuleBindingPass time: 00:00.753
+[2021-11-08 07:00:41] QLPredicateSynthesiser ...
+[2021-11-08 07:00:41] QLPredicateSynthesiser time: 00:00.011
+[2021-11-08 07:00:41] DeclarationBindingPass ...
+[2021-11-08 07:00:41] DeclarationBindingPass time: 00:00.055
+[2021-11-08 07:00:41] Fixed point time ...
+[2021-11-08 07:00:41] Fixed point time time: 00:00.155
+[2021-11-08 07:00:41] ReferenceBindingPass ...
+[2021-11-08 07:00:41] ReferenceBindingPass time: 00:00.024
+[2021-11-08 07:00:41] EntityTypeUpdateBindingPass ...
+[2021-11-08 07:00:41] EntityTypeUpdateBindingPass time: 00:00.018
+[2021-11-08 07:00:41] DeclarationBindingPass ...
+[2021-11-08 07:00:41] DeclarationBindingPass time: 00:00.019
+[2021-11-08 07:00:41] PredicateBodyBindingPass ...
+[2021-11-08 07:00:41] PredicateBodyBindingPass time: 00:00.246
+[2021-11-08 07:00:41] LanguagePragmaPropagationPass ...
+[2021-11-08 07:00:41] LanguagePragmaPropagationPass time: 00:00.014
+[2021-11-08 07:00:41] Ambiguity checks ...
+[2021-11-08 07:00:41] Ambiguity checks time: 00:00.030
+[2021-11-08 07:00:41] Ql checks ...
+[2021-11-08 07:00:42] Ql checks time: 00:00.198
+[2021-11-08 07:00:42] [ERROR] execute queries> ERROR: Could not resolve module TaintedPathCommon (C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp\Uncontrolled data used in path expression.ql:20,8-25)
+[2021-11-08 07:00:42] [ERROR] execute queries> ERROR: Could not resolve predicate guarded/1 (C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp\Uncontrolled data used in path expression.ql:39,86-93)
+[2021-11-08 07:00:42] Sequence stamp origin is -6525749091005138286
+[2021-11-08 07:00:42] Pausing evaluation to close the cache at sequence stamp o+0
+[2021-11-08 07:00:42] The disk cache is freshly trimmed; leave it be.
+[2021-11-08 07:00:42] Unpausing evaluation
+[2021-11-08 07:00:42] Exiting with code 2

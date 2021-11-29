@@ -46,7 +46,11 @@
 			"uri": "codeql-zip-archive://1-92/c:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\databases\\owasp-databaseV2.7\\src.zip"
 		},
 		{
-			"path": "owasp"
+			"path": "QueryTest Eliminando Listas"
+		},
+		{
+			"name": "[apache_struts_cve_2017_9805 source archive]",
+			"uri": "codeql-zip-archive://1-91/c:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\apache_struts_cve_2017_9805\\src.zip"
 		}
 	],
 	"settings": {

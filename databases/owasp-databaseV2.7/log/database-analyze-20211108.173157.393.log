@@ -1,0 +1,49 @@
+[2021-11-08 17:31:57] This is codeql database analyze .\owasp-databaseV2.7\ --format=sarifv2.1.0 --output=results/Benchmark-CodeQL-CONCATENATED --threads=4 ..\QueryTest Eliminando Listas\concatenated-sql.ql
+[2021-11-08 17:31:57] Log file was started late.
+[2021-11-08 17:31:57] [PROGRESS] database analyze> Running queries.
+[2021-11-08 17:31:57] Running plumbing command: codeql database run-queries --evaluator-log-level=1 --threads=4 --ml-model-path= --native-library-path= --warnings=show --qlconfig-file=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\qlconfig.yml --no-rerun -- C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\owasp-databaseV2.7 ..\QueryTest Eliminando Listas\concatenated-sql.ql
+[2021-11-08 17:31:57] Calling plumbing command: codeql resolve ram --format=json
+[2021-11-08 17:31:57] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx2011M",
+                        "--off-heap-ram=2011"
+                      ]
+[2021-11-08 17:31:57] Spawning plumbing command: execute queries -J-Xmx2011M --off-heap-ram=2011 --verbosity=progress --logdir=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\owasp-databaseV2.7\log --evaluator-log-level=1 --threads=4 --ml-model-path=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases --native-library-path=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases --warnings=show --qlconfig-file=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\qlconfig.yml --no-rerun --output=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\owasp-databaseV2.7\results -- C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\owasp-databaseV2.7\db-java ..\QueryTest Eliminando Listas\concatenated-sql.ql
+[2021-11-08 17:32:33] Plumbing command codeql execute queries terminated with status 0.
+[2021-11-08 17:32:33] Plumbing command codeql database run-queries completed with status 0.
+[2021-11-08 17:32:33] [PROGRESS] database analyze> Interpreting results.
+[2021-11-08 17:32:33] Running plumbing command: codeql database interpret-results --format=sarifv2.1.0 -o=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\results\Benchmark-CodeQL-CONCATENATED --max-paths=4 --csv-location-format=line-column --print-diagnostics-summary --print-metrics-summary --threads=4 --qlconfig-file=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\qlconfig.yml -- C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\owasp-databaseV2.7 ..\QueryTest Eliminando Listas\concatenated-sql.ql
+[2021-11-08 17:32:33] Calling plumbing command: codeql resolve queries --qlconfig-file=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\qlconfig.yml --format=json -- ..\QueryTest Eliminando Listas\concatenated-sql.ql
+[2021-11-08 17:32:33] Plumbing command codeql resolve queries completed:
+                      [
+                        "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\QueryTest Eliminando Listas\\concatenated-sql.ql"
+                      ]
+[2021-11-08 17:32:33] [DETAILS] database interpret-results> Scanning for qlpack.yml from C:\Users\david\codeql-home\codeql\.codeqlmanifest.json
+[2021-11-08 17:32:33] [DETAILS] database interpret-results> Scanning for qlpack.yml from C:\Users\david\codeql-home\
+[2021-11-08 17:32:33] [DETAILS] database interpret-results> Not scanning from C:\Users\david\codeql-home\codeql which is already done.
+[2021-11-08 17:32:33] [DETAILS] database interpret-results> Scanning for qlpack.yml from C:\Users\david\codeql-home\codeql-repo\.codeqlmanifest.json
+[2021-11-08 17:32:34] [DETAILS] database interpret-results> Scanning for qlpack.yml from C:\Users\david\codeql-home\codeql-repo\ruby\.codeqlmanifest.json
+[2021-11-08 17:32:34] [DETAILS] database interpret-results> Scanning for qlpack.yml from C:\Users\david\codeql-home\codeql2.3\.codeqlmanifest.json
+[2021-11-08 17:32:34] [PROGRESS] database interpret-results> Interpreting C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\QueryTest Eliminando Listas\concatenated-sql.ql...
+[2021-11-08 17:32:34] Calling plumbing command: codeql resolve library-path --query=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\QueryTest Eliminando Listas\concatenated-sql.ql --full-library-path=none --dbscheme=none --format=json
+[2021-11-08 17:32:34] [DETAILS] resolve library-path> Resolving query at normalized path C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\QueryTest Eliminando Listas\concatenated-sql.ql.
+[2021-11-08 17:32:34] [DETAILS] resolve library-path> Found enclosing pack 'codeql-custom-queries-java' at C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\QueryTest Eliminando Listas.
+[2021-11-08 17:32:34] [DETAILS] resolve library-path> Adding compilation cache at C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\QueryTest Eliminando Listas\.cache.
+[2021-11-08 17:32:34] [DETAILS] resolve library-path> Dbscheme was explicitly overridden as C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\none
+[2021-11-08 17:32:34] [DETAILS] resolve library-path> Library path was overridden on command line.
+[2021-11-08 17:32:34] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\databases\\none"
+                        ],
+                        "dbscheme" : "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\databases\\none",
+                        "compilationCache" : [
+                          "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\QueryTest Eliminando Listas\\.cache"
+                        ],
+                        "relativeName" : "codeql-custom-queries-java\\concatenated-sql.ql",
+                        "qlPackName" : "codeql-custom-queries-java"
+                      }
+[2021-11-08 17:32:34] [DETAILS] database interpret-results>  ... found results file at C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\owasp-databaseV2.7\results\codeql-custom-queries-java\concatenated-sql.bqrs.
+[2021-11-08 17:32:34] [DETAILS] database interpret-results> Intepreted problem query "Query built without neutralizing special characters" (java/concatenated-sql-query) at path C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\QueryTest Eliminando Listas\concatenated-sql.ql.
+[2021-11-08 17:32:47] Plumbing command codeql database interpret-results completed.
+[2021-11-08 17:32:47] Terminating normally.

@@ -1,0 +1,35 @@
+[2021-11-08 17:36:37] This is codeql execute queries -J-Xmx2011M --off-heap-ram=2011 --verbosity=progress --logdir=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\owasp-databaseV2.7\log --evaluator-log-level=1 --threads=4 --ml-model-path=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases --native-library-path=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases --warnings=show --qlconfig-file=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\qlconfig.yml --no-rerun --output=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\owasp-databaseV2.7\results -- C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\owasp-databaseV2.7\db-java ..\QueryTest Eliminando Listas\concatenated-sql.ql
+[2021-11-08 17:36:37] Calling plumbing command: codeql resolve queries --qlconfig-file=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\qlconfig.yml --format=json -- ..\QueryTest Eliminando Listas\concatenated-sql.ql
+[2021-11-08 17:36:38] Plumbing command codeql resolve queries completed:
+                      [
+                        "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\QueryTest Eliminando Listas\\concatenated-sql.ql"
+                      ]
+[2021-11-08 17:36:38] Creating executor with 4 threads.
+[2021-11-08 17:36:38] Calling plumbing command: codeql resolve library-path --qlconfig-file=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\qlconfig.yml --query=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\QueryTest Eliminando Listas\concatenated-sql.ql --format=json
+[2021-11-08 17:36:38] [DETAILS] resolve library-path> Resolving query at normalized path C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\QueryTest Eliminando Listas\concatenated-sql.ql.
+[2021-11-08 17:36:38] [DETAILS] resolve library-path> Found enclosing pack 'codeql-custom-queries-java' at C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\QueryTest Eliminando Listas.
+[2021-11-08 17:36:38] [DETAILS] resolve library-path> Adding compilation cache at C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\QueryTest Eliminando Listas\.cache.
+[2021-11-08 17:36:38] [DETAILS] resolve library-path> Resolving library dependencies from C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\QueryTest Eliminando Listas\qlpack.yml.
+[2021-11-08 17:36:39] [DETAILS] resolve library-path> QL pack dependencies for C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\QueryTest Eliminando Listas resolved OK.
+[2021-11-08 17:36:39] [DETAILS] resolve library-path> Found dbscheme through QL packs: C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\ql\java\ql\lib\config\semmlecode.dbscheme.
+[2021-11-08 17:36:39] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\QueryTest Eliminando Listas",
+                          "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\ql\\java\\ql\\lib",
+                          "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\ql\\java\\upgrades"
+                        ],
+                        "dbscheme" : "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\ql\\java\\ql\\lib\\config\\semmlecode.dbscheme",
+                        "compilationCache" : [
+                          "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\QueryTest Eliminando Listas\\.cache"
+                        ],
+                        "relativeName" : "codeql-custom-queries-java\\concatenated-sql.ql",
+                        "qlPackName" : "codeql-custom-queries-java"
+                      }
+[2021-11-08 17:36:39] [PROGRESS] execute queries> [1/1] No need to rerun C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\QueryTest Eliminando Listas\concatenated-sql.ql.
+[2021-11-08 17:36:39] [PROGRESS] execute queries> Shutting down query evaluator.
+[2021-11-08 17:36:39] Sequence stamp origin is -6525585196507764784
+[2021-11-08 17:36:39] Pausing evaluation to close the cache at sequence stamp o+0
+[2021-11-08 17:36:39] The disk cache is freshly trimmed; leave it be.
+[2021-11-08 17:36:39] Unpausing evaluation
+[2021-11-08 17:36:39] Terminating normally.
