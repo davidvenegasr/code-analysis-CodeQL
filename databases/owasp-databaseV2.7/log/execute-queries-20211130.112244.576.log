@@ -1,0 +1,36 @@
+[2021-11-30 11:22:44] This is codeql execute queries -J-Xmx2011M --off-heap-ram=2011 --verbosity=progress --logdir=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\owasp-databaseV2.7\log --evaluator-log-level=1 --threads=4 --ml-model-path=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases --warnings=show --qlconfig-file=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\qlconfig.yml --no-rerun --output=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\owasp-databaseV2.7\results -- C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\owasp-databaseV2.7\db-java ..\owasp-23-alert-queries\NEW Use of Weak Hash.ql
+[2021-11-30 11:22:44] Calling plumbing command: codeql resolve queries --format=json -- ..\owasp-23-alert-queries\NEW Use of Weak Hash.ql
+[2021-11-30 11:22:44] Plumbing command codeql resolve queries completed:
+                      [
+                        "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\owasp-23-alert-queries\\NEW Use of Weak Hash.ql"
+                      ]
+[2021-11-30 11:22:44] Refusing fancy output: The terminal is not an xterm: 
+[2021-11-30 11:22:44] Creating executor with 4 threads.
+[2021-11-30 11:22:44] Calling plumbing command: codeql resolve library-path --qlconfig-file=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\databases\qlconfig.yml --query=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp-23-alert-queries\NEW Use of Weak Hash.ql --format=json
+[2021-11-30 11:22:44] [DETAILS] resolve library-path> Resolving query at normalized path C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp-23-alert-queries\NEW Use of Weak Hash.ql.
+[2021-11-30 11:22:45] [DETAILS] resolve library-path> Found enclosing pack 'owasp-23-alerts-queries' at C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp-23-alert-queries.
+[2021-11-30 11:22:45] [DETAILS] resolve library-path> Adding compilation cache at C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp-23-alert-queries\.cache.
+[2021-11-30 11:22:45] [DETAILS] resolve library-path> Resolving library dependencies from C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp-23-alert-queries\qlpack.yml.
+[2021-11-30 11:22:45] [DETAILS] resolve library-path> QL pack dependencies for C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp-23-alert-queries resolved OK.
+[2021-11-30 11:22:45] [DETAILS] resolve library-path> Found dbscheme through QL packs: C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\ql\java\ql\lib\config\semmlecode.dbscheme.
+[2021-11-30 11:22:45] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\owasp-23-alert-queries",
+                          "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\ql\\java\\ql\\lib",
+                          "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\ql\\java\\upgrades"
+                        ],
+                        "dbscheme" : "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\ql\\java\\ql\\lib\\config\\semmlecode.dbscheme",
+                        "compilationCache" : [
+                          "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\owasp-23-alert-queries\\.cache"
+                        ],
+                        "relativeName" : "owasp-23-alerts-queries\\NEW Use of Weak Hash.ql",
+                        "qlPackName" : "owasp-23-alerts-queries"
+                      }
+[2021-11-30 11:22:45] [PROGRESS] execute queries> [1/1] No need to rerun C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\owasp-23-alert-queries\NEW Use of Weak Hash.ql.
+[2021-11-30 11:22:45] [PROGRESS] execute queries> Shutting down query evaluator.
+[2021-11-30 11:22:45] Sequence stamp origin is -6517517674076459244
+[2021-11-30 11:22:45] Pausing evaluation to close the cache at sequence stamp o+0
+[2021-11-30 11:22:45] The disk cache is freshly trimmed; leave it be.
+[2021-11-30 11:22:45] Unpausing evaluation
+[2021-11-30 11:22:45] Terminating normally.
