@@ -1,0 +1,12 @@
+[2022-01-17 03:56:25] [javac-extractor-11924] Starting extraction for:
+                                              sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 11 --javac-args @@@C:\Users\david\Downloads\jakartaDatabase\log\ext\javac-16.args
+                                              user.dir=C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2
+[2022-01-17 03:56:25] [javac-extractor-11924] [WARN] Appending source destination directory C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\metrics-reporter\target\generated-sources\annotations to sourcepath
+[2022-01-17 03:56:25] [javac-extractor-11924] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\metrics-reporter\src\main\java\org\opennms\newts\reporter\metrics\NewtsReporter.java
+[2022-01-17 03:56:26] [javac-extractor-11924] Writing trap file for: org.opennms.newts.reporter.metrics.NewtsReporter 0.0-1642402151163 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/metrics-reporter/src/main/java/org/opennms/newts/reporter/metrics/NewtsReporter.java
+[2022-01-17 03:56:26] [javac-extractor-11924] Writing trap file for: org.opennms.newts.reporter.metrics.NewtsReporter.Builder 0.0-1642402584837 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/metrics-reporter/target/classes/org/opennms/newts/reporter/metrics/NewtsReporter$Builder.class
+[2022-01-17 03:56:26] [javac-extractor-11924] Javac init time: 0.5s
+[2022-01-17 03:56:26] [javac-extractor-11924] Javac attr time: 0.1s
+[2022-01-17 03:56:26] [javac-extractor-11924] Extractor time: 0.4s
+[2022-01-17 03:56:26] [javac-extractor-11924] Other time: 0.1s
+[2022-01-17 03:56:26] [javac-extractor-11924] Total time: 1.1s

@@ -1,0 +1,21 @@
+[2022-01-17 03:56:57] [javac-extractor-2680] Starting extraction for:
+                                             sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 11 --javac-args @@@C:\Users\david\Downloads\jakartaDatabase\log\ext\javac-18.args
+                                             user.dir=C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2
+[2022-01-17 03:56:57] [javac-extractor-2680] [WARN] Appending source destination directory C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\examples\gsod\target\generated-test-sources\test-annotations to sourcepath
+[2022-01-17 03:56:58] [javac-extractor-2680] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\examples\gsod\src\test\java\org\opennms\newts\gsod\FileIterableTest.java
+[2022-01-17 03:56:58] [javac-extractor-2680] Writing trap file for: org.opennms.newts.gsod.FileIterableTest 0.0-1642402149764 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/examples/gsod/src/test/java/org/opennms/newts/gsod/FileIterableTest.java
+[2022-01-17 03:56:58] [javac-extractor-2680] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\examples\gsod\src\test\java\org\opennms\newts\gsod\FileObservableTest.java
+[2022-01-17 03:56:58] [javac-extractor-2680] Writing trap file for: org.junit.rules.TemporaryFolder 49.0-1417702498000 jar:file:///C:/Users/david/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/rules/TemporaryFolder.class
+[2022-01-17 03:56:58] [javac-extractor-2680] Writing trap file for: org.junit.rules.TestName 49.0-1417702498000 jar:file:///C:/Users/david/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/rules/TestName.class
+[2022-01-17 03:56:58] [javac-extractor-2680] Writing trap file for: rx.observers.TestObserver 50.0-1397713166000 jar:file:///C:/Users/david/.m2/repository/com/netflix/rxjava/rxjava-core/0.17.6/rxjava-core-0.17.6.jar!/rx/observers/TestObserver.class
+[2022-01-17 03:56:58] [javac-extractor-2680] Writing trap file for: org.opennms.newts.gsod.FileObservableTest 0.0-1642402149795 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/examples/gsod/src/test/java/org/opennms/newts/gsod/FileObservableTest.java
+[2022-01-17 03:56:59] [javac-extractor-2680] Writing trap file for: org.junit.rules.TestWatcher 49.0-1417702496000 jar:file:///C:/Users/david/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/rules/TestWatcher.class
+[2022-01-17 03:56:59] [javac-extractor-2680] Writing trap file for: org.junit.internal.AssumptionViolatedException 49.0-1417702494000 jar:file:///C:/Users/david/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/AssumptionViolatedException.class
+[2022-01-17 03:56:59] [javac-extractor-2680] Writing trap file for: org.junit.AssumptionViolatedException 49.0-1417702496000 jar:file:///C:/Users/david/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/AssumptionViolatedException.class
+[2022-01-17 03:56:59] [javac-extractor-2680] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\examples\gsod\src\test\java\org\opennms\newts\gsod\GSODLineTest.java
+[2022-01-17 03:56:59] [javac-extractor-2680] Writing trap file for: org.opennms.newts.gsod.GSODLineTest 0.0-1642402149824 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/examples/gsod/src/test/java/org/opennms/newts/gsod/GSODLineTest.java
+[2022-01-17 03:56:59] [javac-extractor-2680] Javac init time: 0.8s
+[2022-01-17 03:56:59] [javac-extractor-2680] Javac attr time: 0.1s
+[2022-01-17 03:56:59] [javac-extractor-2680] Extractor time: 0.9s
+[2022-01-17 03:56:59] [javac-extractor-2680] Other time: 0.1s
+[2022-01-17 03:56:59] [javac-extractor-2680] Total time: 2.0s

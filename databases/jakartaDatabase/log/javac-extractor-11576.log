@@ -1,0 +1,450 @@
+[2022-01-17 03:54:00] [javac-extractor-11576] Starting extraction for:
+                                              sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 11 --javac-args @@@C:\Users\david\Downloads\jakartaDatabase\log\ext\javac-10.args
+                                              user.dir=C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2
+[2022-01-17 03:54:00] [javac-extractor-11576] [WARN] Appending source destination directory C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\target\generated-sources\annotations to sourcepath
+[2022-01-17 03:54:01] [javac-extractor-11576] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\main\java\org\opennms\newts\cassandra\search\CassandraIndexer.java
+[2022-01-17 03:54:01] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.support.StatementGenerator 0.0-1642402147165 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/main/java/org/opennms/newts/cassandra/search/support/StatementGenerator.java
+[2022-01-17 03:54:01] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.CassandraIndexer 0.0-1642402146748 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/main/java/org/opennms/newts/cassandra/search/CassandraIndexer.java
+[2022-01-17 03:54:01] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.ResourceMetadata 0.0-1642402147040 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/main/java/org/opennms/newts/cassandra/search/ResourceMetadata.java
+[2022-01-17 03:54:01] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.CassandraIndexingOptions 0.0-1642402146811 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/main/java/org/opennms/newts/cassandra/search/CassandraIndexingOptions.java
+[2022-01-17 03:54:01] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.ResourceIdSplitter 0.0-1642402147010 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/main/java/org/opennms/newts/cassandra/search/ResourceIdSplitter.java
+[2022-01-17 03:54:01] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.ResourceMetadataCache 0.0-1642402147075 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/main/java/org/opennms/newts/cassandra/search/ResourceMetadataCache.java
+[2022-01-17 03:54:01] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.Constants.Schema 0.0-1642402440104 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/target/classes/org/opennms/newts/cassandra/search/Constants$Schema.class
+[2022-01-17 03:54:01] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.Constants 0.0-1642402146911 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/main/java/org/opennms/newts/cassandra/search/Constants.java
+[2022-01-17 03:54:01] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.CassandraIndexer.TermInsert 0.0-1642402440031 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/target/classes/org/opennms/newts/cassandra/search/CassandraIndexer$TermInsert.class
+[2022-01-17 03:54:01] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.CassandraIndexer.AttributeInsert 0.0-1642402440033 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/target/classes/org/opennms/newts/cassandra/search/CassandraIndexer$AttributeInsert.class
+[2022-01-17 03:54:01] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.CassandraIndexer.MetricInsert 0.0-1642402440025 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/target/classes/org/opennms/newts/cassandra/search/CassandraIndexer$MetricInsert.class
+[2022-01-17 03:54:01] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.CassandraIndexer.KeyValuePairInsert 0.0-1642402440027 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/target/classes/org/opennms/newts/cassandra/search/CassandraIndexer$KeyValuePairInsert.class
+[2022-01-17 03:54:01] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.CassandraIndexingOptions.Builder 0.0-1642402440049 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/target/classes/org/opennms/newts/cassandra/search/CassandraIndexingOptions$Builder.class
+[2022-01-17 03:54:01] [javac-extractor-11576] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\main\java\org\opennms\newts\cassandra\search\ResourceMetadataCache.java
+[2022-01-17 03:54:01] [javac-extractor-11576] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\main\java\org\opennms\newts\cassandra\search\ResourceIdSplitter.java
+[2022-01-17 03:54:02] [javac-extractor-11576] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\main\java\org\opennms\newts\cassandra\search\CassandraIndexingOptions.java
+[2022-01-17 03:54:02] [javac-extractor-11576] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\main\java\org\opennms\newts\cassandra\search\support\StatementGenerator.java
+[2022-01-17 03:54:02] [javac-extractor-11576] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\main\java\org\opennms\newts\cassandra\search\ResourceMetadata.java
+[2022-01-17 03:54:02] [javac-extractor-11576] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\main\java\org\opennms\newts\cassandra\search\CassandraIndexerSampleProcessor.java
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.CassandraIndexerSampleProcessor 0.0-1642402146782 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/main/java/org/opennms/newts/cassandra/search/CassandraIndexerSampleProcessor.java
+[2022-01-17 03:54:02] [javac-extractor-11576] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\main\java\org\opennms\newts\cassandra\search\Schema.java
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.Schema 0.0-1642402147104 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/main/java/org/opennms/newts/cassandra/search/Schema.java
+[2022-01-17 03:54:02] [javac-extractor-11576] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\main\java\org\opennms\newts\cassandra\search\GuavaResourceMetadataCache.java
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.cache.Cache 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/cache/Cache.class
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Completion failure for type: javax.annotation.Nullable
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.cache.CacheBuilder 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/cache/CacheBuilder.class
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Completion failure for type: javax.annotation.CheckReturnValue
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.GuavaResourceMetadataCache 0.0-1642402146977 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/main/java/org/opennms/newts/cassandra/search/GuavaResourceMetadataCache.java
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.cache.CacheLoader 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/cache/CacheLoader.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.cache.LoadingCache 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/cache/LoadingCache.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.cache.AbstractCache.StatsCounter 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/cache/AbstractCache$StatsCounter.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.cache.RemovalListener 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/cache/RemovalListener.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.base.Ticker 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/base/Ticker.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.cache.LocalCache.Strength 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/cache/LocalCache$Strength.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.cache.Weigher 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/cache/Weigher.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.cache.CacheBuilderSpec 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/cache/CacheBuilderSpec.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.cache.CacheStats 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/cache/CacheStats.class
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Not rewriting trap file for: javax.annotation.Nullable -1.-1-0 -1.-1-0 null
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Not rewriting trap file for: javax.annotation.CheckReturnValue -1.-1-0 -1.-1-0 null
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.cache.AbstractCache 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/cache/AbstractCache.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.cache.RemovalNotification 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/cache/RemovalNotification.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.cache.LocalCache 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/cache/LocalCache.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.cache.LocalCache.Segment 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/cache/LocalCache$Segment.class
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:350)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractCallable(OnDemandExtractor.java:293)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:223)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractField(OnDemandExtractor.java:282)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:230)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractField(OnDemandExtractor.java:282)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:230)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Incomplete annotation: @javax.annotation.concurrent.GuardedBy("this")
+                                                     java.lang.ClassCastException: class javac_extend.com.sun.tools.javac.code.Type$ErrorType cannot be cast to class javac_extend.com.sun.tools.javac.code.Type$MethodType (javac_extend.com.sun.tools.javac.code.Type$ErrorType and javac_extend.com.sun.tools.javac.code.Type$MethodType are in unnamed module of loader 'app')
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:987)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.getMethodKey(OnDemandExtractor.java:972)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotation(AnnotationExtractor.java:89)
+                                                     	at com.semmle.extractor.java.AnnotationExtractor.extractAnnotations(AnnotationExtractor.java:69)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractAnnotations(OnDemandExtractor.java:368)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractField(OnDemandExtractor.java:282)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembers(OnDemandExtractor.java:230)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extractMembersToCurrentWriter(OnDemandExtractor.java:201)
+                                                     	at com.semmle.extractor.java.OnDemandExtractor.extract(OnDemandExtractor.java:114)
+                                                     	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:66)
+                                                     	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:336)
+                                                     	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:485)
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.cache.LocalCache.ReferenceEntry 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/cache/LocalCache$ReferenceEntry.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.cache.LocalCache.ValueReference 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/cache/LocalCache$ValueReference.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.cache.RemovalCause 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/cache/RemovalCause.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.cache.LocalCache.EntryFactory 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/cache/LocalCache$EntryFactory.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: java.util.logging.Logger 55.0-1626867188000 jrt:/modules/java.logging/java/util/logging/Logger.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: javax.annotation.concurrent.GuardedBy -1.-1-0 null
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Unknown location for javax.annotation.concurrent.GuardedBy
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.cache.LocalCache.LoadingValueReference 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/cache/LocalCache$LoadingValueReference.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: java.util.concurrent.atomic.AtomicReferenceArray 55.0-1626867188000 jrt:/modules/java.base/java/util/concurrent/atomic/AtomicReferenceArray.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: java.util.logging.LogManager.LoggerWeakRef 55.0-1626867188000 jrt:/modules/java.logging/java/util/logging/LogManager$LoggerWeakRef.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: java.util.logging.Handler 55.0-1626867188000 jrt:/modules/java.logging/java/util/logging/Handler.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: java.util.logging.Level 55.0-1626867188000 jrt:/modules/java.logging/java/util/logging/Level.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: java.util.logging.LogRecord 55.0-1626867188000 jrt:/modules/java.logging/java/util/logging/LogRecord.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: java.util.logging.Filter 55.0-1626867188000 jrt:/modules/java.logging/java/util/logging/Filter.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: java.util.logging.LogManager 55.0-1626867188000 jrt:/modules/java.logging/java/util/logging/LogManager.class
+[2022-01-17 03:54:02] [javac-extractor-11576] [WARN] Not rewriting trap file for: javax.annotation.concurrent.GuardedBy -1.-1-0 -1.-1-0 null
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.base.Stopwatch 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/base/Stopwatch.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: com.google.common.util.concurrent.SettableFuture 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/util/concurrent/SettableFuture.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: java.util.logging.LogManager.LogNode 55.0-1626867188000 jrt:/modules/java.logging/java/util/logging/LogManager$LogNode.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: java.util.logging.ErrorManager 55.0-1626867188000 jrt:/modules/java.logging/java/util/logging/ErrorManager.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: java.util.logging.Formatter 55.0-1626867188000 jrt:/modules/java.logging/java/util/logging/Formatter.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: java.util.logging.LoggingMXBean 55.0-1626867188000 jrt:/modules/java.logging/java/util/logging/LoggingMXBean.class
+[2022-01-17 03:54:02] [javac-extractor-11576] Writing trap file for: java.util.logging.LogManager.LoggerContext 55.0-1626867188000 jrt:/modules/java.logging/java/util/logging/LogManager$LoggerContext.class
+[2022-01-17 03:54:03] [javac-extractor-11576] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\main\java\org\opennms\newts\cassandra\search\SimpleResourceIdSplitter.java
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: com.google.common.base.Splitter 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/base/Splitter.class
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.SimpleResourceIdSplitter 0.0-1642402147131 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/main/java/org/opennms/newts/cassandra/search/SimpleResourceIdSplitter.java
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: com.google.common.base.Splitter.MapSplitter 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/base/Splitter$MapSplitter.class
+[2022-01-17 03:54:03] [javac-extractor-11576] [WARN] Not rewriting trap file for: javax.annotation.CheckReturnValue -1.-1-0 -1.-1-0 null
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: com.google.common.base.CharMatcher 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/base/CharMatcher.class
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: java.util.BitSet 55.0-1626867188000 jrt:/modules/java.base/java/util/BitSet.class
+[2022-01-17 03:54:03] [javac-extractor-11576] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\main\java\org\opennms\newts\cassandra\search\EscapableResourceIdSplitter.java
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.EscapableResourceIdSplitter 0.0-1642402146941 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/main/java/org/opennms/newts/cassandra/search/EscapableResourceIdSplitter.java
+[2022-01-17 03:54:03] [javac-extractor-11576] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\main\java\org\opennms\newts\cassandra\search\CassandraResourceTreeWalker.java
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: java.util.ArrayDeque 55.0-1626867188000 jrt:/modules/java.base/java/util/ArrayDeque.class
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: com.google.common.collect.Queues 50.0-1408988892000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/collect/Queues.class
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.CassandraSearcher 0.0-1642402146880 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/main/java/org/opennms/newts/cassandra/search/CassandraSearcher.java
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.CassandraResourceTreeWalker 0.0-1642402146847 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/main/java/org/opennms/newts/cassandra/search/CassandraResourceTreeWalker.java
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.CassandraResourceTreeWalker.SearchResultVisitor 0.0-1642402440100 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/target/classes/org/opennms/newts/cassandra/search/CassandraResourceTreeWalker$SearchResultVisitor.class
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: java.util.concurrent.SynchronousQueue 55.0-1626867188000 jrt:/modules/java.base/java/util/concurrent/SynchronousQueue.class
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: java.util.PriorityQueue 55.0-1626867188000 jrt:/modules/java.base/java/util/PriorityQueue.class
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: java.util.concurrent.PriorityBlockingQueue 55.0-1626867188000 jrt:/modules/java.base/java/util/concurrent/PriorityBlockingQueue.class
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: java.util.concurrent.LinkedBlockingDeque 55.0-1626867188000 jrt:/modules/java.base/java/util/concurrent/LinkedBlockingDeque.class
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: java.util.concurrent.BlockingDeque 55.0-1626867188000 jrt:/modules/java.base/java/util/concurrent/BlockingDeque.class
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: java.util.concurrent.ConcurrentLinkedQueue 55.0-1626867188000 jrt:/modules/java.base/java/util/concurrent/ConcurrentLinkedQueue.class
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: java.util.concurrent.ArrayBlockingQueue 55.0-1626867188000 jrt:/modules/java.base/java/util/concurrent/ArrayBlockingQueue.class
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: java.util.concurrent.LinkedBlockingDeque.Node 55.0-1626867188000 jrt:/modules/java.base/java/util/concurrent/LinkedBlockingDeque$Node.class
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: java.util.concurrent.ConcurrentLinkedQueue.Node 55.0-1626867188000 jrt:/modules/java.base/java/util/concurrent/ConcurrentLinkedQueue$Node.class
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: java.util.concurrent.ArrayBlockingQueue.Itrs 55.0-1626867188000 jrt:/modules/java.base/java/util/concurrent/ArrayBlockingQueue$Itrs.class
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: java.util.concurrent.ArrayBlockingQueue.Itr 55.0-1626867188000 jrt:/modules/java.base/java/util/concurrent/ArrayBlockingQueue$Itr.class
+[2022-01-17 03:54:03] [javac-extractor-11576] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\main\java\org\opennms\newts\cassandra\search\Constants.java
+[2022-01-17 03:54:03] [javac-extractor-11576] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\main\java\org\opennms\newts\cassandra\search\CassandraSearcher.java
+[2022-01-17 03:54:03] [javac-extractor-11576] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\main\java\org\opennms\newts\cassandra\search\support\StatementUtils.java
+[2022-01-17 03:54:03] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.support.StatementUtils 0.0-1642402147223 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/main/java/org/opennms/newts/cassandra/search/support/StatementUtils.java
+[2022-01-17 03:54:03] [javac-extractor-11576] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\main\java\org\opennms\newts\cassandra\search\CassandraCachePrimer.java
+[2022-01-17 03:54:04] [javac-extractor-11576] Writing trap file for: org.opennms.newts.cassandra.search.CassandraCachePrimer 0.0-1642402146709 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/main/java/org/opennms/newts/cassandra/search/CassandraCachePrimer.java
+[2022-01-17 03:54:04] [javac-extractor-11576] Javac init time: 0.7s
+[2022-01-17 03:54:04] [javac-extractor-11576] Javac attr time: 0.2s
+[2022-01-17 03:54:04] [javac-extractor-11576] Extractor time: 2.6s
+[2022-01-17 03:54:04] [javac-extractor-11576] Other time: 0.1s
+[2022-01-17 03:54:04] [javac-extractor-11576] Total time: 3.7s

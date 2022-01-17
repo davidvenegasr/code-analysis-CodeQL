@@ -1,0 +1,11 @@
+[2022-01-17 03:54:18] [javac-extractor-16784] Starting extraction for:
+                                              sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 11 --javac-args @@@C:\Users\david\Downloads\jakartaDatabase\log\ext\javac-13.args
+                                              user.dir=C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2
+[2022-01-17 03:54:18] [javac-extractor-16784] [WARN] Appending source destination directory C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\graphite\target\generated-test-sources\test-annotations to sourcepath
+[2022-01-17 03:54:18] [javac-extractor-16784] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\graphite\src\test\java\org\opennms\newts\graphite\GraphiteHandlerTest.java
+[2022-01-17 03:54:19] [javac-extractor-16784] Writing trap file for: org.opennms.newts.graphite.GraphiteHandlerTest 0.0-1642402150936 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/graphite/src/test/java/org/opennms/newts/graphite/GraphiteHandlerTest.java
+[2022-01-17 03:54:19] [javac-extractor-16784] Javac init time: 0.6s
+[2022-01-17 03:54:19] [javac-extractor-16784] Javac attr time: 0.0s
+[2022-01-17 03:54:19] [javac-extractor-16784] Extractor time: 0.2s
+[2022-01-17 03:54:19] [javac-extractor-16784] Other time: 0.1s
+[2022-01-17 03:54:19] [javac-extractor-16784] Total time: 0.9s

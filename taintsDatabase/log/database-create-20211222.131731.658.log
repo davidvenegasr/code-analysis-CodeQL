@@ -1,0 +1,215 @@
+[2021-12-22 13:17:31] This is codeql database create taintsDatabase --language=java --source-root=taintstepsComparision --overwrite
+[2021-12-22 13:17:31] Log file was started late.
+[2021-12-22 13:17:31] [PROGRESS] database create> Initializing database at C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\taintsDatabase.
+[2021-12-22 13:17:31] Running plumbing command: codeql database init --overwrite --language=java --source-root=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\taintstepsComparision --allow-missing-source-root=false --allow-already-existing -- C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\taintsDatabase
+[2021-12-22 13:17:31] [PROGRESS] database init> Counting lines of code in C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\taintstepsComparision
+[2021-12-22 13:17:32] [PROGRESS] database init> Resolving extractor java.
+[2021-12-22 13:17:32] Calling plumbing command: codeql resolve languages --format=json
+[2021-12-22 13:17:32] [DETAILS] resolve languages> Scanning for [codeql-extractor.yml] from C:\Users\david\codeql-home\codeql-latest\.codeqlmanifest.json
+[2021-12-22 13:17:32] [DETAILS] resolve languages> Parsing C:\Users\david\codeql-home\codeql-latest\cpp\codeql-extractor.yml.
+[2021-12-22 13:17:32] [DETAILS] resolve languages> Parsing C:\Users\david\codeql-home\codeql-latest\csharp\codeql-extractor.yml.
+[2021-12-22 13:17:32] [DETAILS] resolve languages> Parsing C:\Users\david\codeql-home\codeql-latest\csv\codeql-extractor.yml.
+[2021-12-22 13:17:32] [DETAILS] resolve languages> Parsing C:\Users\david\codeql-home\codeql-latest\go\codeql-extractor.yml.
+[2021-12-22 13:17:32] [DETAILS] resolve languages> Parsing C:\Users\david\codeql-home\codeql-latest\html\codeql-extractor.yml.
+[2021-12-22 13:17:32] [DETAILS] resolve languages> Parsing C:\Users\david\codeql-home\codeql-latest\java\codeql-extractor.yml.
+[2021-12-22 13:17:32] [DETAILS] resolve languages> Parsing C:\Users\david\codeql-home\codeql-latest\javascript\codeql-extractor.yml.
+[2021-12-22 13:17:32] [DETAILS] resolve languages> Parsing C:\Users\david\codeql-home\codeql-latest\properties\codeql-extractor.yml.
+[2021-12-22 13:17:32] [DETAILS] resolve languages> Parsing C:\Users\david\codeql-home\codeql-latest\python\codeql-extractor.yml.
+[2021-12-22 13:17:32] [DETAILS] resolve languages> Parsing C:\Users\david\codeql-home\codeql-latest\ruby\codeql-extractor.yml.
+[2021-12-22 13:17:32] [DETAILS] resolve languages> Parsing C:\Users\david\codeql-home\codeql-latest\xml\codeql-extractor.yml.
+[2021-12-22 13:17:32] Plumbing command codeql resolve languages completed:
+                      {
+                        "extractors" : {
+                          "cpp" : [
+                            {
+                              "extractor_root" : "C:\\Users\\david\\codeql-home\\codeql-latest\\cpp"
+                            }
+                          ],
+                          "csharp" : [
+                            {
+                              "extractor_root" : "C:\\Users\\david\\codeql-home\\codeql-latest\\csharp"
+                            }
+                          ],
+                          "csv" : [
+                            {
+                              "extractor_root" : "C:\\Users\\david\\codeql-home\\codeql-latest\\csv"
+                            }
+                          ],
+                          "go" : [
+                            {
+                              "extractor_root" : "C:\\Users\\david\\codeql-home\\codeql-latest\\go"
+                            }
+                          ],
+                          "html" : [
+                            {
+                              "extractor_root" : "C:\\Users\\david\\codeql-home\\codeql-latest\\html"
+                            }
+                          ],
+                          "java" : [
+                            {
+                              "extractor_root" : "C:\\Users\\david\\codeql-home\\codeql-latest\\java"
+                            }
+                          ],
+                          "javascript" : [
+                            {
+                              "extractor_root" : "C:\\Users\\david\\codeql-home\\codeql-latest\\javascript"
+                            }
+                          ],
+                          "properties" : [
+                            {
+                              "extractor_root" : "C:\\Users\\david\\codeql-home\\codeql-latest\\properties"
+                            }
+                          ],
+                          "python" : [
+                            {
+                              "extractor_root" : "C:\\Users\\david\\codeql-home\\codeql-latest\\python"
+                            }
+                          ],
+                          "ruby" : [
+                            {
+                              "extractor_root" : "C:\\Users\\david\\codeql-home\\codeql-latest\\ruby"
+                            }
+                          ],
+                          "xml" : [
+                            {
+                              "extractor_root" : "C:\\Users\\david\\codeql-home\\codeql-latest\\xml"
+                            }
+                          ]
+                        }
+                      }
+[2021-12-22 13:17:32] [DETAILS] database init> Found candidate extractor root for java: C:\Users\david\codeql-home\codeql-latest\java.
+[2021-12-22 13:17:32] [PROGRESS] database init> Successfully loaded extractor Java (java) from C:\Users\david\codeql-home\codeql-latest\java.
+[2021-12-22 13:17:32] [PROGRESS] database init> Created skeleton CodeQL database at C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\taintsDatabase. This in-progress database is ready to be populated by an extractor.
+[2021-12-22 13:17:32] Plumbing command codeql database init completed.
+[2021-12-22 13:17:32] Using autobuild script C:\Users\david\codeql-home\codeql-latest\java\tools\autobuild.cmd.
+[2021-12-22 13:17:32] [DETAILS] database create> Detected autobuild command for Java: C:\Users\david\codeql-home\codeql-latest\java\tools\autobuild.cmd.
+[2021-12-22 13:17:32] [PROGRESS] database create> Running build command: [C:\Users\david\codeql-home\codeql-latest\java\tools\autobuild.cmd]
+[2021-12-22 13:17:32] Running plumbing command: codeql database trace-command --working-dir=C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\taintstepsComparision --index-traceless-dbs --no-db-cluster -- C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\taintsDatabase C:\Users\david\codeql-home\codeql-latest\java\tools\autobuild.cmd
+[2021-12-22 13:17:32] Setting up tracing from specification at C:\Users\david\codeql-home\codeql-latest\java\tools\compiler-tracing.spec.
+[2021-12-22 13:17:32] Picked up extra JVM args: '-javaagent:C:\Users\david\codeql-home\codeql-latest\java\tools/codeql-java-agent.jar=ignore-project,java' '-Xbootclasspath/a:C:\Users\david\codeql-home\codeql-latest\java\tools/codeql-java-agent.jar'
+[2021-12-22 13:17:32] [PROGRESS] database trace-command> Running command in C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\taintstepsComparision: [C:\Users\david\codeql-home\codeql-latest\java\tools\autobuild.cmd]
+[2021-12-22 13:17:32] [build-stdout] [2021-12-22 13:17:32] Build directory is .
+[2021-12-22 13:17:32] [build-stdout] [2021-12-22 13:17:32] [autobuild] > mvn.cmd clean package -f "pom.xml" -B -V -e -Dfindbugs.skip -Dcheckstyle.skip -Dpmd.skip=true -Denforcer.skip -Dmaven.javadoc.skip -DskipTests -Dmaven.test.skip.exec -Dlicense.skip=true -Drat.skip=true 
+[2021-12-22 13:17:33] [build-stdout] [2021-12-22 13:17:33] [autobuild] Apache Maven 3.8.3 (ff8e977a158738155dc465c6a97ffaf31982d739)
+[2021-12-22 13:17:33] [build-stdout] [2021-12-22 13:17:33] [autobuild] Maven home: C:\Users\david\Documents\apache-maven-3.8.3-bin\apache-maven-3.8.3
+[2021-12-22 13:17:33] [build-stdout] [2021-12-22 13:17:33] [autobuild] Java version: 11.0.12, vendor: Eclipse Foundation, runtime: C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot
+[2021-12-22 13:17:33] [build-stdout] [2021-12-22 13:17:33] [autobuild] Default locale: en_US, platform encoding: Cp1252
+[2021-12-22 13:17:33] [build-stdout] [2021-12-22 13:17:33] [autobuild] OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [INFO] Error stacktraces are turned on.
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [INFO] Scanning for projects...
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [ERROR] Malformed POM C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\taintstepsComparision\pom.xml: Expected root element 'project' but found 'dependencies' (position: START_TAG seen <dependencies>... @1:14)  @ C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\taintstepsComparision\pom.xml, line 1, column 14
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [ERROR] 'modelVersion' is missing. @ line 1, column 14
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [FATAL] 'groupId' is missing. @ line 1, column 14
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [FATAL] 'artifactId' is missing. @ line 1, column 14
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [FATAL] 'version' is missing. @ line 1, column 14
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]  @ 
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [ERROR] The build could not read 1 project -> [Help 1]
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [ERROR] Malformed POM C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\taintstepsComparision\pom.xml: Expected root element 'project' but found 'dependencies' (position: START_TAG seen <dependencies>... @1:14)  @ C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\taintstepsComparision\pom.xml, line 1, column 14
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [ERROR] 'modelVersion' is missing. @ line 1, column 14
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [FATAL] 'groupId' is missing. @ line 1, column 14
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [FATAL] 'artifactId' is missing. @ line 1, column 14
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [FATAL] 'version' is missing. @ line 1, column 14
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:397)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:414)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:405)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:82)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:507)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:219)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.cli.MavenCli.execute (MavenCli.java:972)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at java.lang.reflect.Method.invoke (Method.java:566)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [ERROR]   
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [ERROR]   The project [unknown-group-id]:[unknown-artifact-id]:[unknown-version] (C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\taintstepsComparision\pom.xml) has 5 errors
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [ERROR]     Malformed POM C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\taintstepsComparision\pom.xml: Expected root element 'project' but found 'dependencies' (position: START_TAG seen <dependencies>... @1:14)  @ C:\Users\david\Documents\Pasantia\code-analysis-CodeQL\taintstepsComparision\pom.xml, line 1, column 14 -> [Help 2]
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] org.apache.maven.model.io.ModelParseException: Expected root element 'project' but found 'dependencies' (position: START_TAG seen <dependencies>... @1:14) 
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.model.io.DefaultModelReader.read (DefaultModelReader.java:117)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.model.io.DefaultModelReader.read (DefaultModelReader.java:85)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.model.building.DefaultModelProcessor.read (DefaultModelProcessor.java:111)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.model.building.DefaultModelBuilder.readModel (DefaultModelBuilder.java:559)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:288)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:252)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:448)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:414)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:377)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:414)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:405)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:82)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:507)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:219)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.cli.MavenCli.execute (MavenCli.java:972)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at java.lang.reflect.Method.invoke (Method.java:566)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Expected root element 'project' but found 'dependencies' (position: START_TAG seen <dependencies>... @1:14) 
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.model.io.xpp3.MavenXpp3ReaderEx.read (MavenXpp3ReaderEx.java:4418)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.model.io.xpp3.MavenXpp3ReaderEx.read (MavenXpp3ReaderEx.java:598)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.model.io.DefaultModelReader.read (DefaultModelReader.java:108)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.model.io.DefaultModelReader.read (DefaultModelReader.java:85)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.model.building.DefaultModelProcessor.read (DefaultModelProcessor.java:111)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.model.building.DefaultModelBuilder.readModel (DefaultModelBuilder.java:559)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:288)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:252)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:448)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:414)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:377)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:414)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:405)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:82)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:507)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:219)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.cli.MavenCli.execute (MavenCli.java:972)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at java.lang.reflect.Method.invoke (Method.java:566)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild]     at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [ERROR]     'modelVersion' is missing. @ line 1, column 14
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [ERROR]     'groupId' is missing. @ line 1, column 14
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [ERROR]     'artifactId' is missing. @ line 1, column 14
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [ERROR]     'version' is missing. @ line 1, column 14
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [ERROR] 
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [ERROR] 
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [ERROR] For more information about the errors and possible solutions, please read the following articles:
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [autobuild] [ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/ModelParseException
+[2021-12-22 13:17:34] [build-stdout] [2021-12-22 13:17:34] [ERROR] Spawned process exited abnormally (code 1; tried to run: [C:\Users\david\codeql-home\codeql-latest\tools\win64\runner.exe, cmd.exe, /C, type, NUL, &&, mvn.cmd, clean, package, -f, pom.xml, -B, -V, -e, -Dfindbugs.skip, -Dcheckstyle.skip, -Dpmd.skip=true, -Denforcer.skip, -Dmaven.javadoc.skip, -DskipTests, -Dmaven.test.skip.exec, -Dlicense.skip=true, -Drat.skip=true])
+[2021-12-22 13:17:34] [ERROR] Spawned process exited abnormally (code 1; tried to run: [C:\Users\david\codeql-home\codeql-latest\tools\win64\tracer.exe, C:\Users\david\codeql-home\codeql-latest\tools\win64\runner.exe, cmd.exe, /C, type, NUL, &&, C:\Users\david\codeql-home\codeql-latest\java\tools\autobuild.cmd])
+[2021-12-22 13:17:34] Exception caught at top level: Exit status 1 from command: [C:\Users\david\codeql-home\codeql-latest\tools\win64\runner.exe, cmd.exe, /C, type, NUL, &&, C:\Users\david\codeql-home\codeql-latest\java\tools\autobuild.cmd]
+                      com.semmle.cli2.database.DatabaseProcessCommandCommon.executeSubcommand(DatabaseProcessCommandCommon.java:188)
+                      com.semmle.cli2.database.TraceCommandCommand.executeSubcommand(TraceCommandCommand.java:86)
+                      com.semmle.cli2.picocli.PlumbingRunner.run(PlumbingRunner.java:110)
+                      com.semmle.cli2.picocli.SubcommandCommon.runPlumbingInProcess(SubcommandCommon.java:161)
+                      com.semmle.cli2.database.CreateCommand.executeSubcommand(CreateCommand.java:151)
+                      com.semmle.cli2.picocli.SubcommandCommon.call(SubcommandCommon.java:486)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:205)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:214)
+                      com.semmle.cli2.CodeQL.main(CodeQL.java:98)

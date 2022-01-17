@@ -1,0 +1,21 @@
+[2022-01-17 03:53:57] [javac-extractor-22268] Starting extraction for:
+                                              sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 11 --javac-args @@@C:\Users\david\Downloads\jakartaDatabase\log\ext\javac-9.args
+                                              user.dir=C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2
+[2022-01-17 03:53:57] [javac-extractor-22268] [WARN] Appending source destination directory C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\storage\target\generated-test-sources\test-annotations to sourcepath
+[2022-01-17 03:53:58] [javac-extractor-22268] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\storage\src\test\java\org\opennms\newts\persistence\cassandra\Utils.java
+[2022-01-17 03:53:58] [javac-extractor-22268] Writing trap file for: org.opennms.newts.persistence.cassandra.Utils 0.0-1642402148109 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/storage/src/test/java/org/opennms/newts/persistence/cassandra/Utils.java
+[2022-01-17 03:53:58] [javac-extractor-22268] Writing trap file for: org.opennms.newts.persistence.cassandra.Utils.AbstractRowsBuilder 0.0-1642402437049 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/storage/target/test-classes/org/opennms/newts/persistence/cassandra/Utils$AbstractRowsBuilder.class
+[2022-01-17 03:53:58] [javac-extractor-22268] Writing trap file for: org.opennms.newts.persistence.cassandra.Utils.MeasurementRowsBuilder 0.0-1642402437051 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/storage/target/test-classes/org/opennms/newts/persistence/cassandra/Utils$MeasurementRowsBuilder.class
+[2022-01-17 03:53:58] [javac-extractor-22268] Writing trap file for: org.opennms.newts.persistence.cassandra.Utils.SampleRowsBuilder 0.0-1642402437052 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/storage/target/test-classes/org/opennms/newts/persistence/cassandra/Utils$SampleRowsBuilder.class
+[2022-01-17 03:53:58] [javac-extractor-22268] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\storage\src\test\java\org\opennms\newts\persistence\cassandra\InsertSelectMeasurementsITCase.java
+[2022-01-17 03:53:58] [javac-extractor-22268] Writing trap file for: org.opennms.newts.persistence.cassandra.InsertSelectMeasurementsITCase 0.0-1642402147991 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/storage/src/test/java/org/opennms/newts/persistence/cassandra/InsertSelectMeasurementsITCase.java
+[2022-01-17 03:53:58] [javac-extractor-22268] Writing trap file for: org.opennms.newts.persistence.cassandra.NewtsSampleRepositoryTestCase 0.0-1642402148075 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/storage/src/test/java/org/opennms/newts/persistence/cassandra/NewtsSampleRepositoryTestCase.java
+[2022-01-17 03:53:59] [javac-extractor-22268] Writing trap file for: org.junit.Rule 49.0-1417702496000 jar:file:///C:/Users/david/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/Rule.class
+[2022-01-17 03:53:59] [javac-extractor-22268] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\storage\src\test\java\org\opennms\newts\persistence\cassandra\NewtsSampleRepositoryTestCase.java
+[2022-01-17 03:53:59] [javac-extractor-22268] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\storage\src\test\java\org\opennms\newts\persistence\cassandra\InsertSelectSamplesITCase.java
+[2022-01-17 03:53:59] [javac-extractor-22268] Writing trap file for: org.opennms.newts.persistence.cassandra.InsertSelectSamplesITCase 0.0-1642402148044 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/storage/src/test/java/org/opennms/newts/persistence/cassandra/InsertSelectSamplesITCase.java
+[2022-01-17 03:53:59] [javac-extractor-22268] Javac init time: 0.8s
+[2022-01-17 03:53:59] [javac-extractor-22268] Javac attr time: 0.1s
+[2022-01-17 03:53:59] [javac-extractor-22268] Extractor time: 0.8s
+[2022-01-17 03:53:59] [javac-extractor-22268] Other time: 0.1s
+[2022-01-17 03:53:59] [javac-extractor-22268] Total time: 1.9s

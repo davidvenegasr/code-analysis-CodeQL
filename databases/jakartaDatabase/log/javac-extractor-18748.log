@@ -1,0 +1,22 @@
+[2022-01-17 03:55:31] [javac-extractor-18748] Starting extraction for:
+                                              sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 11 --javac-args @@@C:\Users\david\Downloads\jakartaDatabase\log\ext\javac-15.args
+                                              user.dir=C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2
+[2022-01-17 03:55:31] [javac-extractor-18748] [WARN] Appending source destination directory C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\rest\target\generated-test-sources\test-annotations to sourcepath
+[2022-01-17 03:55:32] [javac-extractor-18748] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\rest\src\test\java\org\opennms\newts\rest\SamplesResourceTest.java
+[2022-01-17 03:55:32] [javac-extractor-18748] Writing trap file for: org.opennms.newts.rest.SamplesResourceTest 0.0-1642402153181 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/rest/src/test/java/org/opennms/newts/rest/SamplesResourceTest.java
+[2022-01-17 03:55:32] [javac-extractor-18748] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\rest\src\test\java\org\opennms\newts\rest\MeasurementsResourceTest.java
+[2022-01-17 03:55:32] [javac-extractor-18748] Writing trap file for: org.opennms.newts.rest.MeasurementsResourceTest 0.0-1642402153122 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/rest/src/test/java/org/opennms/newts/rest/MeasurementsResourceTest.java
+[2022-01-17 03:55:33] [javac-extractor-18748] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\rest\src\test\java\org\opennms\newts\rest\DurationParamTest.java
+[2022-01-17 03:55:33] [javac-extractor-18748] Writing trap file for: org.opennms.newts.rest.DurationParamTest 0.0-1642402153052 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/rest/src/test/java/org/opennms/newts/rest/DurationParamTest.java
+[2022-01-17 03:55:33] [javac-extractor-18748] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\rest\src\test\java\org\opennms\newts\rest\HttpBasicAuthenticationFilterTest.java
+[2022-01-17 03:55:33] [javac-extractor-18748] Writing trap file for: org.opennms.newts.rest.HttpBasicAuthenticationFilterTest 0.0-1642402153084 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/rest/src/test/java/org/opennms/newts/rest/HttpBasicAuthenticationFilterTest.java
+[2022-01-17 03:55:33] [javac-extractor-18748] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\rest\src\test\java\org\opennms\newts\rest\ResultSerializationTest.java
+[2022-01-17 03:55:33] [javac-extractor-18748] Writing trap file for: org.junit.After 49.0-1417702490000 jar:file:///C:/Users/david/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/After.class
+[2022-01-17 03:55:33] [javac-extractor-18748] Writing trap file for: org.opennms.newts.rest.ResultSerializationTest 0.0-1642402153153 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/rest/src/test/java/org/opennms/newts/rest/ResultSerializationTest.java
+[2022-01-17 03:55:33] [javac-extractor-18748] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\rest\src\test\java\org\opennms\newts\rest\TimestampParamTest.java
+[2022-01-17 03:55:33] [javac-extractor-18748] Writing trap file for: org.opennms.newts.rest.TimestampParamTest 0.0-1642402153232 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/rest/src/test/java/org/opennms/newts/rest/TimestampParamTest.java
+[2022-01-17 03:55:33] [javac-extractor-18748] Javac init time: 0.9s
+[2022-01-17 03:55:33] [javac-extractor-18748] Javac attr time: 0.1s
+[2022-01-17 03:55:33] [javac-extractor-18748] Extractor time: 1.0s
+[2022-01-17 03:55:33] [javac-extractor-18748] Other time: 0.1s
+[2022-01-17 03:55:33] [javac-extractor-18748] Total time: 2.2s

@@ -1,0 +1,30 @@
+[2022-01-17 03:52:05] [javac-extractor-2936] Starting extraction for:
+                                             sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 11 --javac-args @@@C:\Users\david\Downloads\jakartaDatabase\log\ext\javac-2.args
+                                             user.dir=C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2
+[2022-01-17 03:52:05] [javac-extractor-2936] [WARN] Appending source destination directory C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\queryparser\target\generated-sources\annotations to sourcepath
+[2022-01-17 03:52:06] [javac-extractor-2936] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\queryparser\target\generated-sources\javacc\org\opennms\newts\api\search\query\TokenMgrError.java
+[2022-01-17 03:52:06] [javac-extractor-2936] Writing trap file for: org.opennms.newts.api.search.query.TokenMgrError 0.0-1642402321163 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/queryparser/target/generated-sources/javacc/org/opennms/newts/api/search/query/TokenMgrError.java
+[2022-01-17 03:52:06] [javac-extractor-2936] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\queryparser\target\generated-sources\javacc\org\opennms\newts\api\search\query\QueryParser.java
+[2022-01-17 03:52:06] [javac-extractor-2936] Writing trap file for: java.io.StringReader 55.0-1626867188000 jrt:/modules/java.base/java/io/StringReader.class
+[2022-01-17 03:52:06] [javac-extractor-2936] Writing trap file for: org.opennms.newts.api.search.query.QueryParser 0.0-1642402321152 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/queryparser/target/generated-sources/javacc/org/opennms/newts/api/search/query/QueryParser.java
+[2022-01-17 03:52:06] [javac-extractor-2936] Writing trap file for: org.opennms.newts.api.search.query.QueryParser.LookaheadSuccess 0.0-1642402325127 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/queryparser/target/classes/org/opennms/newts/api/search/query/QueryParser$LookaheadSuccess.class
+[2022-01-17 03:52:06] [javac-extractor-2936] Writing trap file for: org.opennms.newts.api.search.query.Token 0.0-1642402321161 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/queryparser/target/generated-sources/javacc/org/opennms/newts/api/search/query/Token.java
+[2022-01-17 03:52:06] [javac-extractor-2936] Writing trap file for: org.opennms.newts.api.search.query.ParseException 0.0-1642402321150 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/queryparser/target/generated-sources/javacc/org/opennms/newts/api/search/query/ParseException.java
+[2022-01-17 03:52:06] [javac-extractor-2936] Writing trap file for: org.opennms.newts.api.search.query.QueryParser.JJCalls 0.0-1642402325132 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/queryparser/target/classes/org/opennms/newts/api/search/query/QueryParser$JJCalls.class
+[2022-01-17 03:52:06] [javac-extractor-2936] Writing trap file for: org.opennms.newts.api.search.query.SimpleCharStream 0.0-1642402321159 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/queryparser/target/generated-sources/javacc/org/opennms/newts/api/search/query/SimpleCharStream.java
+[2022-01-17 03:52:06] [javac-extractor-2936] Writing trap file for: org.opennms.newts.api.search.query.QueryParserBase 0.0-1642402151355 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/queryparser/src/main/java/org/opennms/newts/api/search/query/QueryParserBase.java
+[2022-01-17 03:52:06] [javac-extractor-2936] Writing trap file for: org.opennms.newts.api.search.query.QueryParserConstants 0.0-1642402321155 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/queryparser/target/generated-sources/javacc/org/opennms/newts/api/search/query/QueryParserConstants.java
+[2022-01-17 03:52:06] [javac-extractor-2936] Writing trap file for: org.opennms.newts.api.search.query.QueryParserTokenManager 0.0-1642402321157 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/queryparser/target/generated-sources/javacc/org/opennms/newts/api/search/query/QueryParserTokenManager.java
+[2022-01-17 03:52:06] [javac-extractor-2936] Writing trap file for: java.lang.SuppressWarnings 55.0-1626867188000 jrt:/modules/java.base/java/lang/SuppressWarnings.class
+[2022-01-17 03:52:06] [javac-extractor-2936] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\queryparser\src\main\java\org\opennms\newts\api\search\query\QueryParserBase.java
+[2022-01-17 03:52:06] [javac-extractor-2936] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\queryparser\target\generated-sources\javacc\org\opennms\newts\api\search\query\QueryParserConstants.java
+[2022-01-17 03:52:06] [javac-extractor-2936] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\queryparser\target\generated-sources\javacc\org\opennms\newts\api\search\query\ParseException.java
+[2022-01-17 03:52:06] [javac-extractor-2936] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\queryparser\target\generated-sources\javacc\org\opennms\newts\api\search\query\QueryParserTokenManager.java
+[2022-01-17 03:52:06] [javac-extractor-2936] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\queryparser\target\generated-sources\javacc\org\opennms\newts\api\search\query\SimpleCharStream.java
+[2022-01-17 03:52:07] [javac-extractor-2936] Writing trap file for: java.io.InputStreamReader 55.0-1626867188000 jrt:/modules/java.base/java/io/InputStreamReader.class
+[2022-01-17 03:52:07] [javac-extractor-2936] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\queryparser\target\generated-sources\javacc\org\opennms\newts\api\search\query\Token.java
+[2022-01-17 03:52:07] [javac-extractor-2936] Javac init time: 0.6s
+[2022-01-17 03:52:07] [javac-extractor-2936] Javac attr time: 0.1s
+[2022-01-17 03:52:07] [javac-extractor-2936] Extractor time: 0.8s
+[2022-01-17 03:52:07] [javac-extractor-2936] Other time: 0.1s
+[2022-01-17 03:52:07] [javac-extractor-2936] Total time: 1.6s

@@ -1,0 +1,35 @@
+[2022-01-17 03:52:09] [javac-extractor-16792] Starting extraction for:
+                                              sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 11 --javac-args @@@C:\Users\david\Downloads\jakartaDatabase\log\ext\javac-4.args
+                                              user.dir=C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2
+[2022-01-17 03:52:09] [javac-extractor-16792] [WARN] Appending source destination directory C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\aggregate\target\generated-sources\annotations to sourcepath
+[2022-01-17 03:52:09] [javac-extractor-16792] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\aggregate\src\main\java\org\opennms\newts\aggregate\Aggregation.java
+[2022-01-17 03:52:10] [javac-extractor-16792] Writing trap file for: java.util.NoSuchElementException 55.0-1626867188000 jrt:/modules/java.base/java/util/NoSuchElementException.class
+[2022-01-17 03:52:10] [javac-extractor-16792] Writing trap file for: com.google.common.collect.ArrayListMultimap 50.0-1408988892000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/collect/ArrayListMultimap.class
+[2022-01-17 03:52:10] [javac-extractor-16792] Writing trap file for: org.opennms.newts.aggregate.Aggregation 0.0-1642402143815 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/aggregate/src/main/java/org/opennms/newts/aggregate/Aggregation.java
+[2022-01-17 03:52:10] [javac-extractor-16792] Writing trap file for: org.opennms.newts.aggregate.IntervalGenerator 0.0-1642402143909 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/aggregate/src/main/java/org/opennms/newts/aggregate/IntervalGenerator.java
+[2022-01-17 03:52:10] [javac-extractor-16792] Writing trap file for: com.google.common.collect.AbstractListMultimap 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/collect/AbstractListMultimap.class
+[2022-01-17 03:52:10] [javac-extractor-16792] [WARN] Completion failure for type: javax.annotation.Nullable
+[2022-01-17 03:52:10] [javac-extractor-16792] Writing trap file for: com.google.common.collect.AbstractMapBasedMultimap 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/collect/AbstractMapBasedMultimap.class
+[2022-01-17 03:52:10] [javac-extractor-16792] Writing trap file for: com.google.common.collect.ListMultimap 50.0-1408988890000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/collect/ListMultimap.class
+[2022-01-17 03:52:10] [javac-extractor-16792] [WARN] Not rewriting trap file for: javax.annotation.Nullable -1.-1-0 -1.-1-0 null
+[2022-01-17 03:52:10] [javac-extractor-16792] Processing JAR file: C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/api/target/newts-api-1.5.2.jar
+[2022-01-17 03:52:10] [javac-extractor-16792] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\aggregate\src\main\java\org\opennms\newts\aggregate\Export.java
+[2022-01-17 03:52:10] [javac-extractor-16792] Writing trap file for: org.opennms.newts.aggregate.Export 0.0-1642402143883 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/aggregate/src/main/java/org/opennms/newts/aggregate/Export.java
+[2022-01-17 03:52:10] [javac-extractor-16792] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\aggregate\src\main\java\org\opennms\newts\aggregate\Rate.java
+[2022-01-17 03:52:10] [javac-extractor-16792] Writing trap file for: org.opennms.newts.aggregate.Rate 0.0-1642402143970 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/aggregate/src/main/java/org/opennms/newts/aggregate/Rate.java
+[2022-01-17 03:52:10] [javac-extractor-16792] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\aggregate\src\main\java\org\opennms\newts\aggregate\PrimaryData.java
+[2022-01-17 03:52:10] [javac-extractor-16792] Writing trap file for: com.google.common.collect.Iterators 50.0-1408988892000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/collect/Iterators.class
+[2022-01-17 03:52:10] [javac-extractor-16792] Writing trap file for: org.opennms.newts.aggregate.PrimaryData 0.0-1642402143935 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/aggregate/src/main/java/org/opennms/newts/aggregate/PrimaryData.java
+[2022-01-17 03:52:10] [javac-extractor-16792] Writing trap file for: org.opennms.newts.aggregate.PrimaryData.Accumulation 0.0-1642402328938 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/aggregate/target/classes/org/opennms/newts/aggregate/PrimaryData$Accumulation.class
+[2022-01-17 03:52:10] [javac-extractor-16792] Writing trap file for: com.google.common.collect.PeekingIterator 50.0-1408988892000 jar:file:///C:/Users/david/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/collect/PeekingIterator.class
+[2022-01-17 03:52:10] [javac-extractor-16792] [WARN] Not rewriting trap file for: javax.annotation.Nullable -1.-1-0 -1.-1-0 null
+[2022-01-17 03:52:10] [javac-extractor-16792] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\aggregate\src\main\java\org\opennms\newts\aggregate\IntervalGenerator.java
+[2022-01-17 03:52:10] [javac-extractor-16792] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\aggregate\src\main\java\org\opennms\newts\aggregate\Compute.java
+[2022-01-17 03:52:10] [javac-extractor-16792] Writing trap file for: org.opennms.newts.aggregate.Compute 0.0-1642402143854 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/aggregate/src/main/java/org/opennms/newts/aggregate/Compute.java
+[2022-01-17 03:52:11] [javac-extractor-16792] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\aggregate\src\main\java\org\opennms\newts\aggregate\ResultProcessor.java
+[2022-01-17 03:52:11] [javac-extractor-16792] Writing trap file for: org.opennms.newts.aggregate.ResultProcessor 0.0-1642402144002 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/aggregate/src/main/java/org/opennms/newts/aggregate/ResultProcessor.java
+[2022-01-17 03:52:11] [javac-extractor-16792] Javac init time: 0.5s
+[2022-01-17 03:52:11] [javac-extractor-16792] Javac attr time: 0.1s
+[2022-01-17 03:52:11] [javac-extractor-16792] Extractor time: 1.2s
+[2022-01-17 03:52:11] [javac-extractor-16792] Other time: 0.1s
+[2022-01-17 03:52:11] [javac-extractor-16792] Total time: 1.9s

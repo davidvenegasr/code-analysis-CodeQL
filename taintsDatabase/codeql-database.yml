@@ -1,0 +1,35 @@
+---
+sourceLocationPrefix: "C:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\\
+  taintstepsComparision"
+baselineLinesOfCode: 33
+unicodeNewlines: false
+columnKind: "utf16"
+primaryLanguage: "java"
+inProgress:
+  primaryLanguage: "java"
+  installedExtractors:
+    cpp:
+    - "file:///C:/Users/david/codeql-home/codeql-latest/cpp/"
+    csharp:
+    - "file:///C:/Users/david/codeql-home/codeql-latest/csharp/"
+    csv:
+    - "file:///C:/Users/david/codeql-home/codeql-latest/csv/"
+    go:
+    - "file:///C:/Users/david/codeql-home/codeql-latest/go/"
+    html:
+    - "file:///C:/Users/david/codeql-home/codeql-latest/html/"
+    java:
+    - "file:///C:/Users/david/codeql-home/codeql-latest/java/"
+    javascript:
+    - "file:///C:/Users/david/codeql-home/codeql-latest/javascript/"
+    properties:
+    - "file:///C:/Users/david/codeql-home/codeql-latest/properties/"
+    python:
+    - "file:///C:/Users/david/codeql-home/codeql-latest/python/"
+    ruby:
+    - "file:///C:/Users/david/codeql-home/codeql-latest/ruby/"
+    xml:
+    - "file:///C:/Users/david/codeql-home/codeql-latest/xml/"
+creationMetadata:
+  cliVersion: "2.7.2"
+  creationTime: "2021-12-22T16:17:32.151049300Z"

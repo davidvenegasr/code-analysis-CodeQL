@@ -1,0 +1,38 @@
+[2022-01-17 03:57:03] [javac-extractor-26608] Starting extraction for:
+                                              sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 11 --javac-args @@@C:\Users\david\Downloads\jakartaDatabase\log\ext\javac-19.args
+                                              user.dir=C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2
+[2022-01-17 03:57:03] [javac-extractor-26608] [WARN] Appending source destination directory C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\examples\stress\target\generated-sources\annotations to sourcepath
+[2022-01-17 03:57:04] [javac-extractor-26608] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\examples\stress\src\main\java\org\opennms\newts\stress\TimestampOptionHandler.java
+[2022-01-17 03:57:04] [javac-extractor-26608] Writing trap file for: org.opennms.newts.stress.TimestampOptionHandler 0.0-1642402150552 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/examples/stress/src/main/java/org/opennms/newts/stress/TimestampOptionHandler.java
+[2022-01-17 03:57:04] [javac-extractor-26608] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\examples\stress\src\main\java\org\opennms\newts\stress\InsertDispatcher.java
+[2022-01-17 03:57:04] [javac-extractor-26608] Writing trap file for: org.opennms.newts.stress.InsertDispatcher 0.0-1642402150233 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/examples/stress/src/main/java/org/opennms/newts/stress/InsertDispatcher.java
+[2022-01-17 03:57:04] [javac-extractor-26608] Writing trap file for: org.opennms.newts.stress.SampleGenerator 0.0-1642402150396 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/examples/stress/src/main/java/org/opennms/newts/stress/SampleGenerator.java
+[2022-01-17 03:57:04] [javac-extractor-26608] Writing trap file for: org.opennms.newts.stress.InsertConfig 0.0-1642402150188 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/examples/stress/src/main/java/org/opennms/newts/stress/InsertConfig.java
+[2022-01-17 03:57:04] [javac-extractor-26608] Writing trap file for: org.opennms.newts.stress.Dispatcher 0.0-1642402150103 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/examples/stress/src/main/java/org/opennms/newts/stress/Dispatcher.java
+[2022-01-17 03:57:04] [javac-extractor-26608] Writing trap file for: org.opennms.newts.stress.Config 0.0-1642402150065 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/examples/stress/src/main/java/org/opennms/newts/stress/Config.java
+[2022-01-17 03:57:04] [javac-extractor-26608] Writing trap file for: org.opennms.newts.stress.Worker 0.0-1642402150590 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/examples/stress/src/main/java/org/opennms/newts/stress/Worker.java
+[2022-01-17 03:57:04] [javac-extractor-26608] Writing trap file for: org.opennms.newts.stress.Inserter 0.0-1642402150273 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/examples/stress/src/main/java/org/opennms/newts/stress/Inserter.java
+[2022-01-17 03:57:05] [javac-extractor-26608] Writing trap file for: org.opennms.newts.stress.Config.Command 0.0-1642402623291 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/examples/stress/target/classes/org/opennms/newts/stress/Config$Command.class
+[2022-01-17 03:57:05] [javac-extractor-26608] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\examples\stress\src\main\java\org\opennms\newts\stress\Dispatcher.java
+[2022-01-17 03:57:05] [javac-extractor-26608] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\examples\stress\src\main\java\org\opennms\newts\stress\InsertConfig.java
+[2022-01-17 03:57:05] [javac-extractor-26608] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\examples\stress\src\main\java\org\opennms\newts\stress\Config.java
+[2022-01-17 03:57:05] [javac-extractor-26608] Writing trap file for: org.opennms.newts.stress.DurationOptionHandler 0.0-1642402150142 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/examples/stress/src/main/java/org/opennms/newts/stress/DurationOptionHandler.java
+[2022-01-17 03:57:05] [javac-extractor-26608] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\examples\stress\src\main\java\org\opennms\newts\stress\SampleGenerator.java
+[2022-01-17 03:57:05] [javac-extractor-26608] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\examples\stress\src\main\java\org\opennms\newts\stress\Worker.java
+[2022-01-17 03:57:05] [javac-extractor-26608] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\examples\stress\src\main\java\org\opennms\newts\stress\Query.java
+[2022-01-17 03:57:05] [javac-extractor-26608] Writing trap file for: org.opennms.newts.stress.Query 0.0-1642402150357 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/examples/stress/src/main/java/org/opennms/newts/stress/Query.java
+[2022-01-17 03:57:05] [javac-extractor-26608] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\examples\stress\src\main\java\org\opennms\newts\stress\SelectDispatcher.java
+[2022-01-17 03:57:05] [javac-extractor-26608] Writing trap file for: org.opennms.newts.stress.SelectDispatcher 0.0-1642402150480 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/examples/stress/src/main/java/org/opennms/newts/stress/SelectDispatcher.java
+[2022-01-17 03:57:05] [javac-extractor-26608] Writing trap file for: org.opennms.newts.stress.SelectConfig 0.0-1642402150442 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/examples/stress/src/main/java/org/opennms/newts/stress/SelectConfig.java
+[2022-01-17 03:57:05] [javac-extractor-26608] Writing trap file for: org.opennms.newts.stress.Selecter 0.0-1642402150516 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/examples/stress/src/main/java/org/opennms/newts/stress/Selecter.java
+[2022-01-17 03:57:05] [javac-extractor-26608] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\examples\stress\src\main\java\org\opennms\newts\stress\SelectConfig.java
+[2022-01-17 03:57:05] [javac-extractor-26608] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\examples\stress\src\main\java\org\opennms\newts\stress\Inserter.java
+[2022-01-17 03:57:05] [javac-extractor-26608] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\examples\stress\src\main\java\org\opennms\newts\stress\Main.java
+[2022-01-17 03:57:05] [javac-extractor-26608] Writing trap file for: org.opennms.newts.stress.Main 0.0-1642402150314 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/examples/stress/src/main/java/org/opennms/newts/stress/Main.java
+[2022-01-17 03:57:05] [javac-extractor-26608] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\examples\stress\src\main\java\org\opennms\newts\stress\DurationOptionHandler.java
+[2022-01-17 03:57:05] [javac-extractor-26608] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\examples\stress\src\main\java\org\opennms\newts\stress\Selecter.java
+[2022-01-17 03:57:05] [javac-extractor-26608] Javac init time: 0.7s
+[2022-01-17 03:57:05] [javac-extractor-26608] Javac attr time: 0.1s
+[2022-01-17 03:57:05] [javac-extractor-26608] Extractor time: 1.4s
+[2022-01-17 03:57:05] [javac-extractor-26608] Other time: 0.2s
+[2022-01-17 03:57:05] [javac-extractor-26608] Total time: 2.4s

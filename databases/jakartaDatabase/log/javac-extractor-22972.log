@@ -1,0 +1,53 @@
+[2022-01-17 03:54:05] [javac-extractor-22972] Starting extraction for:
+                                              sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 11 --javac-args @@@C:\Users\david\Downloads\jakartaDatabase\log\ext\javac-11.args
+                                              user.dir=C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2
+[2022-01-17 03:54:05] [javac-extractor-22972] [WARN] Appending source destination directory C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\target\generated-test-sources\test-annotations to sourcepath
+[2022-01-17 03:54:06] [javac-extractor-22972] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\test\java\org\opennms\newts\cassandra\search\CassandraIndexerITCase.java
+[2022-01-17 03:54:06] [javac-extractor-22972] Writing trap file for: org.opennms.newts.cassandra.search.CassandraIndexerITCase 0.0-1642402147401 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/test/java/org/opennms/newts/cassandra/search/CassandraIndexerITCase.java
+[2022-01-17 03:54:06] [javac-extractor-22972] Writing trap file for: org.opennms.newts.cassandra.search.CassandraIndexerITCase.LoggingResourceVisitor 0.0-1642402444715 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/target/test-classes/org/opennms/newts/cassandra/search/CassandraIndexerITCase$LoggingResourceVisitor.class
+[2022-01-17 03:54:06] [javac-extractor-22972] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\test\java\org\opennms\newts\cassandra\search\CassandraCachePrimerITCase.java
+[2022-01-17 03:54:06] [javac-extractor-22972] Writing trap file for: org.hamcrest.MatcherAssert 49.0-1341877782000 jar:file:///C:/Users/david/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/MatcherAssert.class
+[2022-01-17 03:54:06] [javac-extractor-22972] Writing trap file for: org.hamcrest.Matchers 49.0-1341877790000 jar:file:///C:/Users/david/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar!/org/hamcrest/Matchers.class
+[2022-01-17 03:54:06] [javac-extractor-22972] Writing trap file for: org.opennms.newts.cassandra.search.CassandraCachePrimerITCase 0.0-1642402147371 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/test/java/org/opennms/newts/cassandra/search/CassandraCachePrimerITCase.java
+[2022-01-17 03:54:06] [javac-extractor-22972] Writing trap file for: org.w3c.dom.Node 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/Node.class
+[2022-01-17 03:54:06] [javac-extractor-22972] Writing trap file for: javax.xml.namespace.NamespaceContext 55.0-1626867188000 jrt:/modules/java.xml/javax/xml/namespace/NamespaceContext.class
+[2022-01-17 03:54:06] [javac-extractor-22972] Writing trap file for: java.util.EventObject 55.0-1626867188000 jrt:/modules/java.base/java/util/EventObject.class
+[2022-01-17 03:54:06] [javac-extractor-22972] Writing trap file for: org.hamcrest.collection.IsArray 49.0-1341877786000 jar:file:///C:/Users/david/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar!/org/hamcrest/collection/IsArray.class
+[2022-01-17 03:54:06] [javac-extractor-22972] Writing trap file for: org.hamcrest.TypeSafeMatcher 49.0-1341877782000 jar:file:///C:/Users/david/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/TypeSafeMatcher.class
+[2022-01-17 03:54:06] [javac-extractor-22972] Writing trap file for: org.w3c.dom.UserDataHandler 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/UserDataHandler.class
+[2022-01-17 03:54:06] [javac-extractor-22972] Writing trap file for: org.w3c.dom.DOMException 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/DOMException.class
+[2022-01-17 03:54:06] [javac-extractor-22972] Writing trap file for: org.w3c.dom.Document 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/Document.class
+[2022-01-17 03:54:06] [javac-extractor-22972] Writing trap file for: org.w3c.dom.NamedNodeMap 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/NamedNodeMap.class
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.w3c.dom.NodeList 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/NodeList.class
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.w3c.dom.DOMConfiguration 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/DOMConfiguration.class
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.w3c.dom.Element 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/Element.class
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.w3c.dom.Attr 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/Attr.class
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.w3c.dom.EntityReference 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/EntityReference.class
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.w3c.dom.ProcessingInstruction 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/ProcessingInstruction.class
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.w3c.dom.CDATASection 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/CDATASection.class
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.w3c.dom.Comment 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/Comment.class
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.w3c.dom.Text 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/Text.class
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.w3c.dom.DocumentFragment 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/DocumentFragment.class
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.w3c.dom.DOMImplementation 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/DOMImplementation.class
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.w3c.dom.DocumentType 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/DocumentType.class
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.w3c.dom.DOMStringList 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/DOMStringList.class
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.w3c.dom.TypeInfo 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/TypeInfo.class
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.w3c.dom.CharacterData 55.0-1626867188000 jrt:/modules/java.xml/org/w3c/dom/CharacterData.class
+[2022-01-17 03:54:07] [javac-extractor-22972] Processing JAR file: C:/Users/david/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+[2022-01-17 03:54:07] [javac-extractor-22972] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\test\java\org\opennms\newts\cassandra\search\SimpleResourceIdSplitterTest.java
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.opennms.newts.cassandra.search.SimpleResourceIdSplitterTest 0.0-1642402147559 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/test/java/org/opennms/newts/cassandra/search/SimpleResourceIdSplitterTest.java
+[2022-01-17 03:54:07] [javac-extractor-22972] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\test\java\org\opennms\newts\cassandra\search\CassandraIndexerStressITCase.java
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.opennms.newts.cassandra.search.CassandraIndexerStressITCase 0.0-1642402147436 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/test/java/org/opennms/newts/cassandra/search/CassandraIndexerStressITCase.java
+[2022-01-17 03:54:07] [javac-extractor-22972] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\test\java\org\opennms\newts\cassandra\search\CassandraIndexerTest.java
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.mockito.ArgumentCaptor 49.0-1420054912000 jar:file:///C:/Users/david/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/ArgumentCaptor.class
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.opennms.newts.cassandra.search.CassandraIndexerTest 0.0-1642402147466 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/test/java/org/opennms/newts/cassandra/search/CassandraIndexerTest.java
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.mockito.internal.progress.HandyReturnValues 49.0-1420054912000 jar:file:///C:/Users/david/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/progress/HandyReturnValues.class
+[2022-01-17 03:54:07] [javac-extractor-22972] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\test\java\org\opennms\newts\cassandra\search\EscapableResourceIdSplitterTest.java
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.opennms.newts.cassandra.search.EscapableResourceIdSplitterTest 0.0-1642402147498 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/test/java/org/opennms/newts/cassandra/search/EscapableResourceIdSplitterTest.java
+[2022-01-17 03:54:07] [javac-extractor-22972] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\cassandra\search\src\test\java\org\opennms\newts\cassandra\search\GuavaResourceMetadataTest.java
+[2022-01-17 03:54:07] [javac-extractor-22972] Writing trap file for: org.opennms.newts.cassandra.search.GuavaResourceMetadataTest 0.0-1642402147528 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/cassandra/search/src/test/java/org/opennms/newts/cassandra/search/GuavaResourceMetadataTest.java
+[2022-01-17 03:54:07] [javac-extractor-22972] Javac init time: 0.9s
+[2022-01-17 03:54:07] [javac-extractor-22972] Javac attr time: 0.2s
+[2022-01-17 03:54:07] [javac-extractor-22972] Extractor time: 1.5s
+[2022-01-17 03:54:07] [javac-extractor-22972] Other time: 0.1s
+[2022-01-17 03:54:07] [javac-extractor-22972] Total time: 2.7s

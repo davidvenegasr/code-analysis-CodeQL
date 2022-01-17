@@ -1,0 +1,11 @@
+[2022-01-17 03:52:07] [javac-extractor-26768] Starting extraction for:
+                                              sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 11 --javac-args @@@C:\Users\david\Downloads\jakartaDatabase\log\ext\javac-3.args
+                                              user.dir=C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2
+[2022-01-17 03:52:07] [javac-extractor-26768] [WARN] Appending source destination directory C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\queryparser\target\generated-test-sources\test-annotations to sourcepath
+[2022-01-17 03:52:08] [javac-extractor-26768] Processing file C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\queryparser\src\test\java\org\opennms\newts\api\search\query\QueryParserTest.java
+[2022-01-17 03:52:08] [javac-extractor-26768] Writing trap file for: org.opennms.newts.api.search.query.QueryParserTest 0.0-1642402151434 file:///C:/Users/david/Downloads/newts-1.5.2/newts-1.5.2/queryparser/src/test/java/org/opennms/newts/api/search/query/QueryParserTest.java
+[2022-01-17 03:52:08] [javac-extractor-26768] Javac init time: 0.5s
+[2022-01-17 03:52:08] [javac-extractor-26768] Javac attr time: 0.1s
+[2022-01-17 03:52:08] [javac-extractor-26768] Extractor time: 0.2s
+[2022-01-17 03:52:08] [javac-extractor-26768] Other time: 0.1s
+[2022-01-17 03:52:08] [javac-extractor-26768] Total time: 0.9s

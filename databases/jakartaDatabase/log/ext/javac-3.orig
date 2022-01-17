@@ -1,0 +1,17 @@
+-d
+C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\queryparser\target\test-classes
+-classpath
+C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\queryparser\target\test-classes;C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\queryparser\target\classes;C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\api\target\newts-api-1.5.2.jar;C:\Users\david\.m2\repository\com\google\inject\guice\4.0\guice-4.0.jar;C:\Users\david\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\david\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\david\.m2\repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar;C:\Users\david\.m2\repository\org\apache\commons\commons-jexl\2.1.1\commons-jexl-2.1.1.jar;C:\Users\david\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.12\jcl-over-slf4j-1.7.12.jar;C:\Users\david\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\david\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\david\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;
+-sourcepath
+C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\queryparser\src\test\java;C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\queryparser\target\generated-test-sources\test-annotations;
+-s
+C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\queryparser\target\generated-test-sources\test-annotations
+-g
+-nowarn
+-target
+1.7
+-source
+1.7
+-encoding
+UTF-8
+C:\Users\david\Downloads\newts-1.5.2\newts-1.5.2\queryparser\src\test\java\org\opennms\newts\api\search\query\QueryParserTest.java
