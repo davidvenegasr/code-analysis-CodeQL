@@ -40,6 +40,14 @@
 		{
 			"name": "[jakartaDatabase source archive]",
 			"uri": "codeql-zip-archive://1-89/c:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\databases\\jakartaDatabase\\src.zip"
+		},
+		{
+			"name": "[shellDatabase source archive]",
+			"uri": "codeql-zip-archive://1-87/c:\\Users\\david\\Documents\\Pasantia\\code-analysis-CodeQL\\databases\\shellDatabase\\src.zip"
+		},
+		{
+			"name": "[shellDatabase3 source archive]",
+			"uri": "codeql-zip-archive://1-64/c:\\Users\\david\\Documents\\djl-demo-0.15.0\\shellDatabase3\\src.zip"
 		}
 	],
 	"settings": {

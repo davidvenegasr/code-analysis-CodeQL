@@ -1,0 +1,29 @@
+[2022-01-19 09:40:14] [javac-extractor-14504] Starting extraction for:
+                                              sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 11 --javac-args @@@C:\Users\david\Downloads\djl-demo-0.15.0\shellDatabase\log\ext\javac-1.args
+                                              user.dir=C:\Users\david\Downloads\djl-demo-0.15.0
+[2022-01-19 09:40:14] [javac-extractor-14504] [WARN] Appending source destination directory C:\Users\david\Downloads\djl-demo-0.15.0\lib\build\generated\sources\annotationProcessor\java\test to sourcepath
+[2022-01-19 09:40:15] [javac-extractor-14504] Processing file C:\Users\david\Downloads\djl-demo-0.15.0\lib\src\test\java\djl\demo\LibraryTest.java
+[2022-01-19 09:40:15] [javac-extractor-14504] Writing trap file for: org.junit.jupiter.api.Test 52.0-318222000000 jar:file:///C:/Users/david/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.7.2/f4b4079732a9c537983324cfa4e46655f21d2c56/junit-jupiter-api-5.7.2.jar!/org/junit/jupiter/api/Test.class
+[2022-01-19 09:40:15] [javac-extractor-14504] Writing trap file for: org.junit.jupiter.api.Assertions 52.0-318222000000 jar:file:///C:/Users/david/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.7.2/f4b4079732a9c537983324cfa4e46655f21d2c56/junit-jupiter-api-5.7.2.jar!/org/junit/jupiter/api/Assertions.class
+[2022-01-19 09:40:15] [javac-extractor-14504] Writing trap file for: djl.demo.LibraryTest 0.0-0 null
+[2022-01-19 09:40:15] [javac-extractor-14504] Writing trap file for: org.apiguardian.api.API 50.0-1559866058000 jar:file:///C:/Users/david/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.0/fc9dff4bb36d627bdc553de77e1f17efd790876c/apiguardian-api-1.1.0.jar!/org/apiguardian/api/API.class
+[2022-01-19 09:40:15] [javac-extractor-14504] Writing trap file for: org.apiguardian.api.API.Status 50.0-1559866058000 jar:file:///C:/Users/david/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.0/fc9dff4bb36d627bdc553de77e1f17efd790876c/apiguardian-api-1.1.0.jar!/org/apiguardian/api/API$Status.class
+[2022-01-19 09:40:15] [javac-extractor-14504] Writing trap file for: org.junit.platform.commons.annotation.Testable 52.0-318222000000 jar:file:///C:/Users/david/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.7.2/34adfea6c13fc4a996cf38cdad80800ce850d198/junit-platform-commons-1.7.2.jar!/org/junit/platform/commons/annotation/Testable.class
+[2022-01-19 09:40:15] [javac-extractor-14504] Writing trap file for: org.junit.jupiter.api.function.ThrowingSupplier 52.0-318222000000 jar:file:///C:/Users/david/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.7.2/f4b4079732a9c537983324cfa4e46655f21d2c56/junit-jupiter-api-5.7.2.jar!/org/junit/jupiter/api/function/ThrowingSupplier.class
+[2022-01-19 09:40:15] [javac-extractor-14504] Writing trap file for: org.junit.jupiter.api.function.Executable 52.0-318222000000 jar:file:///C:/Users/david/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.7.2/f4b4079732a9c537983324cfa4e46655f21d2c56/junit-jupiter-api-5.7.2.jar!/org/junit/jupiter/api/function/Executable.class
+[2022-01-19 09:40:15] [javac-extractor-14504] Writing trap file for: org.opentest4j.MultipleFailuresError 50.0-1559867032000 jar:file:///C:/Users/david/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar!/org/opentest4j/MultipleFailuresError.class
+[2022-01-19 09:40:15] [javac-extractor-14504] Writing trap file for: java.lang.Float 55.0-1626867188000 jrt:/modules/java.base/java/lang/Float.class
+[2022-01-19 09:40:15] [javac-extractor-14504] Writing trap file for: java.lang.Short 55.0-1626867188000 jrt:/modules/java.base/java/lang/Short.class
+[2022-01-19 09:40:15] [javac-extractor-14504] Writing trap file for: java.lang.Byte 55.0-1626867188000 jrt:/modules/java.base/java/lang/Byte.class
+[2022-01-19 09:40:15] [javac-extractor-14504] Writing trap file for: java.util.function.BooleanSupplier 55.0-1626867188000 jrt:/modules/java.base/java/util/function/BooleanSupplier.class
+[2022-01-19 09:40:15] [javac-extractor-14504] Writing trap file for: java.lang.annotation.Inherited 55.0-1626867188000 jrt:/modules/java.base/java/lang/annotation/Inherited.class
+[2022-01-19 09:40:15] [javac-extractor-14504] Writing trap file for: java.lang.AssertionError 55.0-1626867188000 jrt:/modules/java.base/java/lang/AssertionError.class
+[2022-01-19 09:40:15] [javac-extractor-14504] Processing JAR file: C:/Users/david/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.7.2/f4b4079732a9c537983324cfa4e46655f21d2c56/junit-jupiter-api-5.7.2.jar
+[2022-01-19 09:40:15] [javac-extractor-14504] Processing JAR file: C:/Users/david/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.0/fc9dff4bb36d627bdc553de77e1f17efd790876c/apiguardian-api-1.1.0.jar
+[2022-01-19 09:40:15] [javac-extractor-14504] Processing JAR file: C:/Users/david/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.7.2/34adfea6c13fc4a996cf38cdad80800ce850d198/junit-platform-commons-1.7.2.jar
+[2022-01-19 09:40:15] [javac-extractor-14504] Processing JAR file: C:/Users/david/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar
+[2022-01-19 09:40:15] [javac-extractor-14504] Javac init time: 0.5s
+[2022-01-19 09:40:15] [javac-extractor-14504] Javac attr time: 0.0s
+[2022-01-19 09:40:15] [javac-extractor-14504] Extractor time: 0.5s
+[2022-01-19 09:40:15] [javac-extractor-14504] Other time: 0.1s
+[2022-01-19 09:40:15] [javac-extractor-14504] Total time: 1.2s
