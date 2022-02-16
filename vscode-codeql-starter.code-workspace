@@ -48,6 +48,13 @@
 		{
 			"name": "[shellDatabase3 source archive]",
 			"uri": "codeql-zip-archive://1-64/c:\\Users\\david\\Documents\\djl-demo-0.15.0\\shellDatabase3\\src.zip"
+		},
+		{
+			"name": "[apache_hive_6874661 source archive]",
+			"uri": "codeql-zip-archive://1-256/c:\\Users\\david\\AppData\\Roaming\\Code\\User\\workspaceStorage\\c3f8fd079387c82f36e9338cd370d8a3\\GitHub.vscode-codeql\\apache_hive_java-srcVersion_687466184718a9b2e9a21d1b7aed5fbe5ca8456f-dist_codeql-bundle-linux64-20220128-1763603810\\apache_hive_6874661\\src.zip"
+		},
+		{
+			"path": "API LGTM experimentos"
 		}
 	],
 	"settings": {
