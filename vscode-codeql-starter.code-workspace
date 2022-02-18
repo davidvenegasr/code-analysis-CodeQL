@@ -58,6 +58,9 @@
 		}
 	],
 	"settings": {
-		"omnisharp.autoStart": false
+		"omnisharp.autoStart": false,
+		"java.project.sourcePaths": [
+			""
+		]
 	}
 }
