@@ -18,8 +18,11 @@ with open(sys.argv[1]) as fileList:
             print(f'#PROY > 0 : {cant}')
             total = sum(map(lambda x: int(x['total']), data))
             print(f'TOTAL: {total}')
-            
-            print(f'PROMEDIO: {total/cant}')
+            mean = 0
+            if cant > 0:
+                mean= total/cant
+            print(f'PROMEDIO: {mean}')
+
 
             
         # Closing file
