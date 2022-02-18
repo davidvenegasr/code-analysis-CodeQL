@@ -1,1 +1,26 @@
-[{"project": {"id": 47890074, "url-identifier": "g/apache/logging-log4j2", "name": "apache/logging-log4j2", "url": "https://lgtm.com/projects/g/apache/logging-log4j2"}, "status": "success", "total": 2, "internal": 2, "external": 0}, {"project": {"id": 4880162, "url-identifier": "g/orientechnologies/orientdb", "name": "orientechnologies/orientdb", "url": "https://lgtm.com/projects/g/orientechnologies/orientdb"}, "status": "success", "total": 4, "internal": 4, "external": 0}]
+[
+    {
+  "project": {
+    "id": 47890074,
+    "url-identifier": "g/apache/logging-log4j2",
+    "name": "apache/logging-log4j2",
+    "url": "https://lgtm.com/projects/g/apache/logging-log4j2"
+  },
+  "status": "success",
+  "total": 2,
+  "internal": 2,
+  "external": 0
+},
+{
+  "project": {
+    "id": 4880162,
+    "url-identifier": "g/orientechnologies/orientdb",
+    "name": "orientechnologies/orientdb",
+    "url": "https://lgtm.com/projects/g/orientechnologies/orientdb"
+  },
+  "status": "success",
+  "total": 4,
+  "internal": 4,
+  "external": 0
+}
+]
