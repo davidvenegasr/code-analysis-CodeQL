@@ -1,1 +1,99 @@
-[{"project": {"id": 25620005, "url-identifier": "g/apache/activemq", "name": "apache/activemq", "url": "https://lgtm.com/projects/g/apache/activemq"}, "status": "success", "total": 96, "internal": 96, "external": 0}, {"project": {"id": 4880162, "url-identifier": "g/orientechnologies/orientdb", "name": "orientechnologies/orientdb", "url": "https://lgtm.com/projects/g/orientechnologies/orientdb"}, "status": "success", "total": 4, "internal": 4, "external": 0}, {"project": {"id": 1506233866939.0, "url-identifier": "g/OWASP-Benchmark/BenchmarkJava", "name": "OWASP-Benchmark/BenchmarkJava", "url": "https://lgtm.com/projects/g/OWASP-Benchmark/BenchmarkJava"}, "status": "success", "total": 47, "internal": 47, "external": 0}, {"project": {"id": 1513286056694.0, "url-identifier": "g/apache/incubator-shenyu", "name": "apache/incubator-shenyu", "url": "https://lgtm.com/projects/g/apache/incubator-shenyu"}, "status": "success", "total": 1, "internal": 1, "external": 0}, {"project": {"id": 25620005, "url-identifier": "g/apache/activemq", "name": "apache/activemq", "url": "https://lgtm.com/projects/g/apache/activemq"}, "status": "success", "total": 96, "internal": 96, "external": 0}, {"project": {"id": 4880162, "url-identifier": "g/orientechnologies/orientdb", "name": "orientechnologies/orientdb", "url": "https://lgtm.com/projects/g/orientechnologies/orientdb"}, "status": "success", "total": 4, "internal": 4, "external": 0}, {"project": {"id": 1506233866939.0, "url-identifier": "g/OWASP-Benchmark/BenchmarkJava", "name": "OWASP-Benchmark/BenchmarkJava", "url": "https://lgtm.com/projects/g/OWASP-Benchmark/BenchmarkJava"}, "status": "success", "total": 47, "internal": 47, "external": 0}, {"project": {"id": 1513286056694.0, "url-identifier": "g/apache/incubator-shenyu", "name": "apache/incubator-shenyu", "url": "https://lgtm.com/projects/g/apache/incubator-shenyu"}, "status": "success", "total": 1, "internal": 1, "external": 0}]
+[
+    {
+      "project": {
+        "id": 25620005,
+        "url-identifier": "g/apache/activemq",
+        "name": "apache/activemq",
+        "url": "https://lgtm.com/projects/g/apache/activemq"
+      },
+      "status": "success",
+      "total": 96,
+      "internal": 96,
+      "external": 0
+    },
+    {
+      "project": {
+        "id": 4880162,
+        "url-identifier": "g/orientechnologies/orientdb",
+        "name": "orientechnologies/orientdb",
+        "url": "https://lgtm.com/projects/g/orientechnologies/orientdb"
+      },
+      "status": "success",
+      "total": 4,
+      "internal": 4,
+      "external": 0
+    },
+    {
+      "project": {
+        "id": 1506233866939,
+        "url-identifier": "g/OWASP-Benchmark/BenchmarkJava",
+        "name": "OWASP-Benchmark/BenchmarkJava",
+        "url": "https://lgtm.com/projects/g/OWASP-Benchmark/BenchmarkJava"
+      },
+      "status": "success",
+      "total": 47,
+      "internal": 47,
+      "external": 0
+    },
+    {
+      "project": {
+        "id": 1513286056694,
+        "url-identifier": "g/apache/incubator-shenyu",
+        "name": "apache/incubator-shenyu",
+        "url": "https://lgtm.com/projects/g/apache/incubator-shenyu"
+      },
+      "status": "success",
+      "total": 1,
+      "internal": 1,
+      "external": 0
+    },
+    {
+      "project": {
+        "id": 25620005,
+        "url-identifier": "g/apache/activemq",
+        "name": "apache/activemq",
+        "url": "https://lgtm.com/projects/g/apache/activemq"
+      },
+      "status": "success",
+      "total": 96,
+      "internal": 96,
+      "external": 0
+    },
+    {
+      "project": {
+        "id": 4880162,
+        "url-identifier": "g/orientechnologies/orientdb",
+        "name": "orientechnologies/orientdb",
+        "url": "https://lgtm.com/projects/g/orientechnologies/orientdb"
+      },
+      "status": "success",
+      "total": 4,
+      "internal": 4,
+      "external": 0
+    },
+    {
+      "project": {
+        "id": 1506233866939,
+        "url-identifier": "g/OWASP-Benchmark/BenchmarkJava",
+        "name": "OWASP-Benchmark/BenchmarkJava",
+        "url": "https://lgtm.com/projects/g/OWASP-Benchmark/BenchmarkJava"
+      },
+      "status": "success",
+      "total": 47,
+      "internal": 47,
+      "external": 0
+    },
+    {
+      "project": {
+        "id": 1513286056694,
+        "url-identifier": "g/apache/incubator-shenyu",
+        "name": "apache/incubator-shenyu",
+        "url": "https://lgtm.com/projects/g/apache/incubator-shenyu"
+      },
+      "status": "success",
+      "total": 1,
+      "internal": 1,
+      "external": 0
+    }
+  ]
+  

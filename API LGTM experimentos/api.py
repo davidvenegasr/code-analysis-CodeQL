@@ -1,3 +1,10 @@
+"""
+
+Ejemplo de uso en linux: 
+python3 api.py 67975537488907456 LDAPOriginal
+
+"""
+
 from unittest import result
 import requests
 import json 
