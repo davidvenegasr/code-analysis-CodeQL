@@ -1,0 +1,518 @@
+[
+  {
+    "project": {
+      "id": 1994840013,
+      "url-identifier": "g/apache/accumulo",
+      "name": "apache/accumulo",
+      "url": "https://lgtm.com/projects/g/apache/accumulo"
+    },
+    "status": "success",
+    "total": 113,
+    "internal": 113,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 25620005,
+      "url-identifier": "g/apache/activemq",
+      "name": "apache/activemq",
+      "url": "https://lgtm.com/projects/g/apache/activemq"
+    },
+    "status": "success",
+    "total": 24,
+    "internal": 24,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 1344240419,
+      "url-identifier": "g/apache/cassandra",
+      "name": "apache/cassandra",
+      "url": "https://lgtm.com/projects/g/apache/cassandra"
+    },
+    "status": "success",
+    "total": 1,
+    "internal": 1,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 41710041,
+      "url-identifier": "g/apache/hive",
+      "name": "apache/hive",
+      "url": "https://lgtm.com/projects/g/apache/hive"
+    },
+    "status": "success",
+    "total": 3,
+    "internal": 3,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 21710081,
+      "url-identifier": "g/apache/shiro",
+      "name": "apache/shiro",
+      "url": "https://lgtm.com/projects/g/apache/shiro"
+    },
+    "status": "success",
+    "total": 4,
+    "internal": 4,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 27580161,
+      "url-identifier": "g/azkaban/azkaban",
+      "name": "azkaban/azkaban",
+      "url": "https://lgtm.com/projects/g/azkaban/azkaban"
+    },
+    "status": "success",
+    "total": 1,
+    "internal": 1,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 1512112272297,
+      "url-identifier": "g/belaban/JGroups",
+      "name": "belaban/JGroups",
+      "url": "https://lgtm.com/projects/g/belaban/JGroups"
+    },
+    "status": "success",
+    "total": 3,
+    "internal": 3,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 1509058586044,
+      "url-identifier": "g/Bukkit/Bukkit",
+      "name": "Bukkit/Bukkit",
+      "url": "https://lgtm.com/projects/g/Bukkit/Bukkit"
+    },
+    "status": "success",
+    "total": 1,
+    "internal": 1,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 5961640,
+      "url-identifier": "g/crashub/crash",
+      "name": "crashub/crash",
+      "url": "https://lgtm.com/projects/g/crashub/crash"
+    },
+    "status": "success",
+    "total": 1,
+    "internal": 1,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 1793670869,
+      "url-identifier": "g/eclipse/jetty.project",
+      "name": "eclipse/jetty.project",
+      "url": "https://lgtm.com/projects/g/eclipse/jetty.project"
+    },
+    "status": "success",
+    "total": 4,
+    "internal": 4,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 1505909746847,
+      "url-identifier": "g/geoserver/geoserver",
+      "name": "geoserver/geoserver",
+      "url": "https://lgtm.com/projects/g/geoserver/geoserver"
+    },
+    "status": "success",
+    "total": 10,
+    "internal": 10,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 1798591304,
+      "url-identifier": "g/gitblit/gitblit",
+      "name": "gitblit/gitblit",
+      "url": "https://lgtm.com/projects/g/gitblit/gitblit"
+    },
+    "status": "success",
+    "total": 11,
+    "internal": 11,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 1803060473,
+      "url-identifier": "g/Impetus/Kundera",
+      "name": "Impetus/Kundera",
+      "url": "https://lgtm.com/projects/g/Impetus/Kundera"
+    },
+    "status": "success",
+    "total": 4,
+    "internal": 4,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 40140106,
+      "url-identifier": "g/javaee-samples/javaee7-samples",
+      "name": "javaee-samples/javaee7-samples",
+      "url": "https://lgtm.com/projects/g/javaee-samples/javaee7-samples"
+    },
+    "status": "success",
+    "total": 2,
+    "internal": 2,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 32750019,
+      "url-identifier": "g/jboss-javassist/javassist",
+      "name": "jboss-javassist/javassist",
+      "url": "https://lgtm.com/projects/g/jboss-javassist/javassist"
+    },
+    "status": "success",
+    "total": 2,
+    "internal": 2,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 114736093,
+      "url-identifier": "g/jeecgboot/jeecg",
+      "name": "jeecgboot/jeecg",
+      "url": "https://lgtm.com/projects/g/jeecgboot/jeecg"
+    },
+    "status": "success",
+    "total": 21,
+    "internal": 21,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 1506468388009,
+      "url-identifier": "g/jenkinsci/jenkins",
+      "name": "jenkinsci/jenkins",
+      "url": "https://lgtm.com/projects/g/jenkinsci/jenkins"
+    },
+    "status": "success",
+    "total": 6,
+    "internal": 6,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 10860006,
+      "url-identifier": "g/jknack/handlebars.java",
+      "name": "jknack/handlebars.java",
+      "url": "https://lgtm.com/projects/g/jknack/handlebars.java"
+    },
+    "status": "success",
+    "total": 1,
+    "internal": 1,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 29625158,
+      "url-identifier": "g/kiegroup/drools",
+      "name": "kiegroup/drools",
+      "url": "https://lgtm.com/projects/g/kiegroup/drools"
+    },
+    "status": "success",
+    "total": 8,
+    "internal": 8,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 21770120,
+      "url-identifier": "g/killbill/killbill",
+      "name": "killbill/killbill",
+      "url": "https://lgtm.com/projects/g/killbill/killbill"
+    },
+    "status": "success",
+    "total": 2,
+    "internal": 2,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 1513297331081,
+      "url-identifier": "g/liquibase/liquibase",
+      "name": "liquibase/liquibase",
+      "url": "https://lgtm.com/projects/g/liquibase/liquibase"
+    },
+    "status": "success",
+    "total": 1,
+    "internal": 1,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 27050576,
+      "url-identifier": "g/naver/ngrinder",
+      "name": "naver/ngrinder",
+      "url": "https://lgtm.com/projects/g/naver/ngrinder"
+    },
+    "status": "success",
+    "total": 2,
+    "internal": 2,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 41633751,
+      "url-identifier": "g/Netflix/eureka",
+      "name": "Netflix/eureka",
+      "url": "https://lgtm.com/projects/g/Netflix/eureka"
+    },
+    "status": "success",
+    "total": 2,
+    "internal": 2,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 4880162,
+      "url-identifier": "g/orientechnologies/orientdb",
+      "name": "orientechnologies/orientdb",
+      "url": "https://lgtm.com/projects/g/orientechnologies/orientdb"
+    },
+    "status": "success",
+    "total": 2,
+    "internal": 2,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 38600054,
+      "url-identifier": "g/qos-ch/logback",
+      "name": "qos-ch/logback",
+      "url": "https://lgtm.com/projects/g/qos-ch/logback"
+    },
+    "status": "success",
+    "total": 3,
+    "internal": 3,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 1506177516607,
+      "url-identifier": "g/ratpack/ratpack",
+      "name": "ratpack/ratpack",
+      "url": "https://lgtm.com/projects/g/ratpack/ratpack"
+    },
+    "status": "success",
+    "total": 2,
+    "internal": 2,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 15070006,
+      "url-identifier": "g/spring-projects/spring-boot",
+      "name": "spring-projects/spring-boot",
+      "url": "https://lgtm.com/projects/g/spring-projects/spring-boot"
+    },
+    "status": "success",
+    "total": 2,
+    "internal": 2,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 7870148,
+      "url-identifier": "g/spring-projects/spring-framework",
+      "name": "spring-projects/spring-framework",
+      "url": "https://lgtm.com/projects/g/spring-projects/spring-framework"
+    },
+    "status": "success",
+    "total": 147,
+    "internal": 147,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 37060037,
+      "url-identifier": "g/spring-projects/spring-integration",
+      "name": "spring-projects/spring-integration",
+      "url": "https://lgtm.com/projects/g/spring-projects/spring-integration"
+    },
+    "status": "success",
+    "total": 3,
+    "internal": 3,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 15690045,
+      "url-identifier": "g/spring-projects/spring-security-oauth",
+      "name": "spring-projects/spring-security-oauth",
+      "url": "https://lgtm.com/projects/g/spring-projects/spring-security-oauth"
+    },
+    "status": "success",
+    "total": 4,
+    "internal": 4,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 1797540044,
+      "url-identifier": "g/stanfordnlp/CoreNLP",
+      "name": "stanfordnlp/CoreNLP",
+      "url": "https://lgtm.com/projects/g/stanfordnlp/CoreNLP"
+    },
+    "status": "success",
+    "total": 144,
+    "internal": 144,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 1509091185984,
+      "url-identifier": "g/tony19/logback-android",
+      "name": "tony19/logback-android",
+      "url": "https://lgtm.com/projects/g/tony19/logback-android"
+    },
+    "status": "success",
+    "total": 3,
+    "internal": 3,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 31550023,
+      "url-identifier": "g/webx/citrus",
+      "name": "webx/citrus",
+      "url": "https://lgtm.com/projects/g/webx/citrus"
+    },
+    "status": "success",
+    "total": 4,
+    "internal": 4,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 1506725946254,
+      "url-identifier": "g/alibaba/arthas",
+      "name": "alibaba/arthas",
+      "url": "https://lgtm.com/projects/g/alibaba/arthas"
+    },
+    "status": "success",
+    "total": 2,
+    "internal": 2,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 1506720256624,
+      "url-identifier": "g/alibaba/nacos",
+      "name": "alibaba/nacos",
+      "url": "https://lgtm.com/projects/g/alibaba/nacos"
+    },
+    "status": "success",
+    "total": 18,
+    "internal": 18,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 4890065,
+      "url-identifier": "g/apache/flink",
+      "name": "apache/flink",
+      "url": "https://lgtm.com/projects/g/apache/flink"
+    },
+    "status": "success",
+    "total": 16,
+    "internal": 16,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 5629499534213120,
+      "url-identifier": "g/apache/hadoop",
+      "name": "apache/hadoop",
+      "url": "https://lgtm.com/projects/g/apache/hadoop"
+    },
+    "status": "success",
+    "total": 64,
+    "internal": 64,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 11080014,
+      "url-identifier": "g/apache/ignite",
+      "name": "apache/ignite",
+      "url": "https://lgtm.com/projects/g/apache/ignite"
+    },
+    "status": "success",
+    "total": 58,
+    "internal": 58,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 2037440684,
+      "url-identifier": "g/dromara/hutool",
+      "name": "dromara/hutool",
+      "url": "https://lgtm.com/projects/g/dromara/hutool"
+    },
+    "status": "success",
+    "total": 3,
+    "internal": 3,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 1506718306849,
+      "url-identifier": "g/openjdk/jdk",
+      "name": "openjdk/jdk",
+      "url": "https://lgtm.com/projects/g/openjdk/jdk"
+    },
+    "status": "success",
+    "total": 68,
+    "internal": 68,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 1513561558362,
+      "url-identifier": "g/pig-mesh/pig",
+      "name": "pig-mesh/pig",
+      "url": "https://lgtm.com/projects/g/pig-mesh/pig"
+    },
+    "status": "success",
+    "total": 3,
+    "internal": 3,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 1513348288785,
+      "url-identifier": "g/qq53182347/liugh-parent",
+      "name": "qq53182347/liugh-parent",
+      "url": "https://lgtm.com/projects/g/qq53182347/liugh-parent"
+    },
+    "status": "success",
+    "total": 1,
+    "internal": 1,
+    "external": 0
+  },
+  {
+    "project": {
+      "id": 1972561423,
+      "url-identifier": "g/shuzheng/zheng",
+      "name": "shuzheng/zheng",
+      "url": "https://lgtm.com/projects/g/shuzheng/zheng"
+    },
+    "status": "success",
+    "total": 2,
+    "internal": 2,
+    "external": 0
+  }
+]
