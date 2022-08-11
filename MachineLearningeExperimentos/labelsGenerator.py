@@ -30,7 +30,7 @@ def getTotal(jsonList, id):
 filename = 'labels.csv'
 # opening the file with w+ mode truncates the file
 f = open(filename, "w+")
-header = ['query-idProyecto', 'gen > rel* 1.5', 'gen > rel* 3.0']
+header = ['query-idProyecto','gen >= rel* 1' , 'gen >= rel* 1.1', 'gen >= rel* 1.2', 'gen >= rel* 1.3']
 writer = csv.writer(f)
 writer.writerow(header)
 f.close()
@@ -49,7 +49,9 @@ for q in queries:
         for id in interIds:
             orig = getTotal(jsonOriginal, id) 
             gen = getTotal(jsonGenerico, id) 
-            bool1_5 = gen > (orig * 1.5)
-            bool3_0 = gen > (orig * 3.0)
-            row = [f'{q[0]}-{id}', bool1_5, bool3_0]
+            bool1_0 = gen >= orig 
+            bool1_1 = gen >= (orig * 1.1)
+            bool1_2 = gen >= (orig * 1.2)
+            bool3_3 = gen >= (orig * 1.3)
+            row = [f'{q[0]}-{id}', bool1_0 ,bool1_1, bool1_2, bool3_3]
             writer.writerow(row)

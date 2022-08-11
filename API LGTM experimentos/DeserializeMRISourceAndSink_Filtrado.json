@@ -1,1 +1,63 @@
-[{"project": {"id": 1506182446078.0, "url-identifier": "g/apache/jmeter", "name": "apache/jmeter", "url": "https://lgtm.com/projects/g/apache/jmeter"}, "status": "success", "total": 3, "internal": 3, "external": 0}, {"project": {"id": 6820070, "url-identifier": "g/konsoletyper/teavm", "name": "konsoletyper/teavm", "url": "https://lgtm.com/projects/g/konsoletyper/teavm"}, "status": "success", "total": 2, "internal": 2, "external": 0}, {"project": {"id": 38600054, "url-identifier": "g/qos-ch/logback", "name": "qos-ch/logback", "url": "https://lgtm.com/projects/g/qos-ch/logback"}, "status": "success", "total": 1, "internal": 1, "external": 0}, {"project": {"id": 7870148, "url-identifier": "g/spring-projects/spring-framework", "name": "spring-projects/spring-framework", "url": "https://lgtm.com/projects/g/spring-projects/spring-framework"}, "status": "success", "total": 4, "internal": 4, "external": 0}, {"project": {"id": 54640078, "url-identifier": "g/apache/geode", "name": "apache/geode", "url": "https://lgtm.com/projects/g/apache/geode"}, "status": "success", "total": 40, "internal": 40, "external": 0}]
+[
+    {
+      "project": {
+        "id": 1506182446078,
+        "url-identifier": "g/apache/jmeter",
+        "name": "apache/jmeter",
+        "url": "https://lgtm.com/projects/g/apache/jmeter"
+      },
+      "status": "success",
+      "total": 3,
+      "internal": 3,
+      "external": 0
+    },
+    {
+      "project": {
+        "id": 6820070,
+        "url-identifier": "g/konsoletyper/teavm",
+        "name": "konsoletyper/teavm",
+        "url": "https://lgtm.com/projects/g/konsoletyper/teavm"
+      },
+      "status": "success",
+      "total": 2,
+      "internal": 2,
+      "external": 0
+    },
+    {
+      "project": {
+        "id": 38600054,
+        "url-identifier": "g/qos-ch/logback",
+        "name": "qos-ch/logback",
+        "url": "https://lgtm.com/projects/g/qos-ch/logback"
+      },
+      "status": "success",
+      "total": 1,
+      "internal": 1,
+      "external": 0
+    },
+    {
+      "project": {
+        "id": 7870148,
+        "url-identifier": "g/spring-projects/spring-framework",
+        "name": "spring-projects/spring-framework",
+        "url": "https://lgtm.com/projects/g/spring-projects/spring-framework"
+      },
+      "status": "success",
+      "total": 4,
+      "internal": 4,
+      "external": 0
+    },
+    {
+      "project": {
+        "id": 54640078,
+        "url-identifier": "g/apache/geode",
+        "name": "apache/geode",
+        "url": "https://lgtm.com/projects/g/apache/geode"
+      },
+      "status": "success",
+      "total": 40,
+      "internal": 40,
+      "external": 0
+    }
+  ]
+  
