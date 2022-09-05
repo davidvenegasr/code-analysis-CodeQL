@@ -10,13 +10,14 @@ import requests
 import json 
 import sys 
 import pyjq
-
+import os
+key = os.environ.get('API_Key')
 results = []
     
 url = f'https://lgtm.com/api/v1.0/queryjobs/{sys.argv[1]}/results/?no-filter=True'
 name = sys.argv[2]
 
-response = requests.get(url, headers={"Accept":"application/json", "Authorization": "Bearer 26820ff16417539fb36b0fa49e190d27c437cf6a577220009b3316c71e100658"})
+response = requests.get(url, headers={"Accept":"application/json", "Authorization": key})
 raw = response.json()  
 
 for i in raw["data"]:  
