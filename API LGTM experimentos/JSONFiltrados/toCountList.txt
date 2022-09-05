@@ -1,7 +1,1 @@
 Control
-Deserialize
-Jakarta
-JShell
-LDAP
-deserializeRMI
-MVELL

@@ -43,7 +43,7 @@ with open(sys.argv[1]) as fileList:
         diffs = []
         for id in inter:
             diffs.append(dict_a[id]-dict_b[id])
-        #print(f'PROMEDIO: {sum(diffs)/len(diffs) if len(diffs)> 0 else 0}')
+        print(f'PROMEDIO: {sum(diffs)/len(diffs) if len(diffs)> 0 else 0}')
         #print(f'Diff: {len(diffs)}')
         print(not_inter)
         for id in not_inter:
